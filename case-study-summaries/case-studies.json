@@ -1,0 +1,1895 @@
+[
+  {
+    "title": "Adopting AI in the classroom",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/department-of-biochemistry-adopting-ai-in-the-classroom",
+    "contributor_line": "Matt Rattley, Lecturer, Department of Biochemistry",
+    "people": [
+      "Matt Rattley"
+    ],
+    "tools": [],
+    "categories": [
+      "student support",
+      "revision support",
+      "process improvement"
+    ],
+    "key_themes": [
+      "human review"
+    ],
+    "summary": "In the Department of Biochemistry AI is a useful tool for helping students apply their knowledge to a range of complex biological systems. Leveraging AI's ability to generate related questions and examples, within a framework laid out for it, gives students an almost endless supply of practice with minimal additional work to us as educators. For a workshop on the type of reaction that's commonplace in biological systems, where molecules become temporarily bound to an enzyme, I created a custom G",
+    "source_paragraphs": [
+      "In the Department of Biochemistry AI is a useful tool for helping students apply their knowledge to a range of complex biological systems. Leveraging AI's ability to generate related questions and examples, within a framework laid out for it, gives students an almost endless supply of practice with minimal additional work to us as educators.",
+      "For a workshop on the type of reaction that's commonplace in biological systems, where molecules become temporarily bound to an enzyme, I created a custom GPT which delivers an example of an enzyme where this happens. It gives enough information for students to work out what's going on, and the student is then tasked with fully outlining the processes involved.",
+      "The GPT has been developed to conform to a particular structure with examples of good and bad answers for it to check against. It has been instructed to not offer up complete answers until a student has given them an answer, and can then, if prompted, ask follow-up questions.",
+      "While it takes some work to get GPT behaving correctly, this is offset by the work needed to manually build or mark these problems. The tool can also be used by students for revision, providing essentially limitless examples to practice on, giving students more opportunities to hone their skills.",
+      "For people new to AI, the best way to find out what it can do is to give it a shot and see how it goes. I've found that it can, very quickly, do a reasonable job of many tasks - and you won't know the ways it fails until you see how it responds to particular prompts. Taking a tool from \"reasonable\" to \"very good\" does take some work, and importantly, rigorous testing. Try to break it and then aim to mitigate where it struggles, and casting human eyes over any outputs is always a good idea."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "AI for Learning: Helping Foundation Year Students in the Physical Sciences use ChatGPT Effectively",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-for-learning",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "ocr and extraction",
+      "process improvement"
+    ],
+    "key_themes": [
+      "critical use",
+      "socratic prompting"
+    ],
+    "summary": "The ‘AI for Learning’ project set out to explore how students on the Astrophoria Physical Sciences Foundation Year programme could engage with ChatGPT in ways that enhance, rather than undermine, their academic development. With the ultimate aim of supporting constructive and active learning, the project focused on training students on how to use ChatGPT Edu, and training tutors to use it so they could assess its accuracy in their subject area and develop a student guide to help learners use AI",
+    "source_paragraphs": [
+      "The ‘AI for Learning’ project set out to explore how students on the Astrophoria Physical Sciences Foundation Year programme could engage with ChatGPT in ways that enhance, rather than undermine, their academic development. With the ultimate aim of supporting constructive and active learning, the project focused on training students on how to use ChatGPT Edu, and training tutors to use it so they could assess its accuracy in their subject area and develop a student guide to help learners use AI as a complement to their own skills.",
+      "Supported by Kelly Webb-Davies, Lead Business Technologist in the AI Competency Centre, tutors explored three methods of teaching to create custom GPTs for. These included:",
+      "A Socratic tutor that encouraged students to think through problems rather than simply receive answers, mirroring Oxford’s tutorial style;",
+      "A self-quizzing tool to identify gaps in knowledge and deepen conceptual understanding;",
+      "A paragraph challenge, in which students had to spot hidden errors in AI-generated text, promoting critical reading and reflection.",
+      "Student responses to AI were, at first, polarised - ranging from scepticism to over-reliance. However, by the project’s end, all participants had developed a more balanced view. Cautious students gained confidence in using AI as a learning partner, while initially over-reliant students better recognised the risks of bypassing their own thinking processes.",
+      "Key lessons emerged: successful integration of AI into undergraduate education requires clear guidance to support active learning, and open dialogue about AI use is far more effective than ignoring it. Importantly, students must understand that AI is not a shortcut to understanding - they still need to demonstrate their own abilities in assessments."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "AI-Assisted Annotations for Histology",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-assisted-annotations-for-histology",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings"
+    ],
+    "summary": "As part of the University’s AI in Teaching and Learning Exploratory Fund, the ‘AI-Assisted Annotations for Histology’ project set out to explore how artificial intelligence could support and enhance histology education - specifically by easing the complex task of annotating digital tissue slides. The project aimed to build and deploy an AI-driven pipeline capable of automating the identification, segmentation, clustering and labelling of cells in histological images. Rather than developing new c",
+    "source_paragraphs": [
+      "As part of the University’s AI in Teaching and Learning Exploratory Fund, the ‘AI-Assisted Annotations for Histology’ project set out to explore how artificial intelligence could support and enhance histology education - specifically by easing the complex task of annotating digital tissue slides.",
+      "The project aimed to build and deploy an AI-driven pipeline capable of automating the identification, segmentation, clustering and labelling of cells in histological images. Rather than developing new classification models or enabling real-time lab-based annotation - both out of scope due to time and technical constraints - the team focused on building a robust system to streamline existing annotation processes. This approach promised to reduce the workload for teaching staff while offering students a more engaging and independent learning experience.",
+      "From the AI Competency Centre, Haseeb Ahmad, Senior Research Software Engineer, led the technical development of the machine learning pipeline. He adapted it to handle a wide variety of tissue types, despite the challenge of limited ground truth data.",
+      "Initial results have shown promising potential in using AI to support histology teaching. However, the project also highlighted limitations - particularly the difficulty of applying a single model across the wide diversity of cell and tissue structures. Some configurations performed well on certain slides but poorly on others, underlining the need for ongoing refinement.",
+      "Looking ahead, the project will focus on scaling the approach and deepening understanding of how AI behaves across complex biological datasets. Future iterations will explore embedding interactive features - such as quizzes and enhanced annotation tools - within the CSlide platform to further enrich the teaching and learning experience in histology."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "AI-assisted Simulated Patient for Clinical Communication Skills Training",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-assisted-simulated-patient-for-clinical-communication-skills-training",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "learning support",
+      "student support",
+      "research workflow",
+      "communications",
+      "feedback"
+    ],
+    "key_themes": [
+      "rapid prototyping"
+    ],
+    "summary": "The ‘AI-assisted Simulated Patient’ project set out to develop a platform that allows healthcare students to practise clinical communication through realistic, AI-driven patient simulations. The system provides automated feedback and supports replay, repetition and reflection - allowing learners to engage with scenarios at their own pace in a psychologically safe environment. Effective and essential communication skills are often difficult to teach to healthcare students. Textbooks can only go s",
+    "source_paragraphs": [
+      "The ‘AI-assisted Simulated Patient’ project set out to develop a platform that allows healthcare students to practise clinical communication through realistic, AI-driven patient simulations. The system provides automated feedback and supports replay, repetition and reflection - allowing learners to engage with scenarios at their own pace in a psychologically safe environment.",
+      "Effective and essential communication skills are often difficult to teach to healthcare students. Textbooks can only go so far, and traditional methods such as live observed simulations can be stressful, especially for students with neurodevelopmental conditions, mental health challenges or learning differences. Remote learners also face barriers to accessing regular in-person simulation-based training.",
+      "With technical support from Edward Fauchon-Jones, Senior Research Software Engineer, and Dominik Lukes, Lead Business Technologist, at the AI Competency Centre, the project team built and tested a prototype that delivered lifelike patient responses, including natural inflections.",
+      "Students responded positively, embracing the opportunity to experiment with communication techniques in a low-pressure setting. However, the team also encountered several challenges. Calibrating the AI to respond appropriately - neither oversharing unsolicited information nor being too evasive - was a delicate balance. Simulating complex patient behaviours, such as anger or resistance, proved difficult, as language models tend to default to cooperative dialogue.",
+      "Key lessons emerged around the importance of clear instructions, thoughtful scenario design, and integrating pedagogically meaningful feedback. With this foundation, AI tools such as this one can significantly enhance experiential learning, improve accessibility, and boost engagement in clinical education."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "AI-Driven Feedback Loops",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-driven-feedback-loops",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "student support",
+      "survey analysis",
+      "feedback",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "draft refinement"
+    ],
+    "summary": "The ‘AI-Driven Feedback Loops for Student Evaluation’ project, led by the Nuffield Department of Primary Care Health Sciences, set out to explore whether AI could help streamline and standardise feedback processes across its postgraduate courses. Prior to this project, each new programme in the department had been implementing its own feedback processes, meaning that there was no consistent administrative approach to collecting, analysing and responding to student feedback. Over six months, the",
+    "source_paragraphs": [
+      "The ‘AI-Driven Feedback Loops for Student Evaluation’ project, led by the Nuffield Department of Primary Care Health Sciences, set out to explore whether AI could help streamline and standardise feedback processes across its postgraduate courses. Prior to this project, each new programme in the department had been implementing its own feedback processes, meaning that there was no consistent administrative approach to collecting, analysing and responding to student feedback.",
+      "Over six months, the team piloted the use of ChatGPT to support feedback analysis, with the aim of reducing the staff time required to manage feedback while delivering more consistent and insightful outputs. Unfortunately, the experiment did not yield the hoped-for proof of concept. In fact, using current AI models increased rather than decreased staff workload due to the need for extensive prompt crafting, interpretation, and quality assurance.",
+      "With training and support from Kelly, Lead Business Technologist in the AI Competency Centre, staff engaged hands-on with the technology - developing valuable AI literacy, albeit not the intended outcome. Participants gained confidence using AI for other academic tasks such as summarising documents and proofreading, suggesting unexpected benefits beyond the project’s initial scope.",
+      "The project highlighted key lessons: while ChatGPT shows promise for simple tasks - like drafting survey questions or summarising already-analysed data - it is not yet reliable for primary analysis of complex, nuanced feedback. Human context and judgement remain crucial. For now, if staff choose to use AI in this space, pre-processing feedback and applying AI solely for summary or presentation purposes is recommended - with a healthy dose of caution and critical oversight."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "AIID (Artificial Intelligence for Interdisciplinary Discussion)",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/aiid-artificial-intelligence-for-interdisciplinary-discussion",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "learning support",
+      "student support",
+      "research workflow",
+      "feedback",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings"
+    ],
+    "summary": "In an era when students are increasingly encouraged to interact with AI in isolation, the ‘AI for Interdisciplinary Discussion’ project set out to do something different - using AI not to replace human conversation, but to spark and support it. The pilot platform was designed to analyse examples of written work uploaded by users and generate tailored prompts and questions to fuel face-to-face dialogue among postgraduate students. The project aimed to encourage the kind of interdisciplinary debat",
+    "source_paragraphs": [
+      "In an era when students are increasingly encouraged to interact with AI in isolation, the ‘AI for Interdisciplinary Discussion’ project set out to do something different - using AI not to replace human conversation, but to spark and support it. The pilot platform was designed to analyse examples of written work uploaded by users and generate tailored prompts and questions to fuel face-to-face dialogue among postgraduate students. The project aimed to encourage the kind of interdisciplinary debate, social connection, and peer learning that are vital to the University experience.",
+      "With technical development led by Haseeb Ahmad, Senior Research Software Engineer at the AI Competency Centre, the team built a bespoke AI platform and interface. Off-the-shelf AI tools were unsuitable for the project’s needs, as the functionality required demanded a custom design.",
+      "Two rounds of student feedback shaped the pilot. The first involved an in-class demonstration by four members of the project team, followed by a full-group discussion. Students responded with strong interest, particularly to the idea of AI as a facilitator for social connection and collaborative learning. Many expressed enthusiasm for expanding the tool into a broader community space for interdisciplinary exchange.",
+      "Key lessons emerged from the process. The unconventional nature of the project meant there were few existing AI solutions to adapt, making bespoke development necessary - but also more time- and labour-intensive. The project demonstrated that, with the right design, AI can help foster human-to-human dialogue rather than diminish it, offering a model for tools that connect students across disciplines and encourage richer, more inclusive academic conversations."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Researchers"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Brainard the Fox",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/brainard-the-fox",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "Gemini"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "feedback"
+    ],
+    "key_themes": [
+      "critical use",
+      "rapid prototyping"
+    ],
+    "summary": "Supported by the AI Teaching and Learning Exploratory Fund, the ‘Brainard the Fox’ project aimed to create a functional AI-powered research companion that could help undergraduate students navigate the overwhelming and complex scope of early medieval British history. The tool created was able to achieve this by suggesting and consolidating reading lists without providing students with complete essay solutions, giving them clearer pathways to engage critically with relevant texts. This project wa",
+    "source_paragraphs": [
+      "Supported by the AI Teaching and Learning Exploratory Fund, the ‘Brainard the Fox’ project aimed to create a functional AI-powered research companion that could help undergraduate students navigate the overwhelming and complex scope of early medieval British history. The tool created was able to achieve this by suggesting and consolidating reading lists without providing students with complete essay solutions, giving them clearer pathways to engage critically with relevant texts.",
+      "This project was a technical collaboration between the History Faculty, the AI Competency Centre, and the Digital Innovation Team. From the AI and ML Competency Centre our Senior Research Software Engineers, Alok Sahu and Haseeb Ahmad, and Lead Business Technologist, Dominik Lukes, assisted in building the backend tool necessary to import and process documents to be collated into lists relevant to a student’s requirements. They did this through importing texts from Zotero and preparing them for bulk processing in Google Gemini for summary creation.",
+      "Following deployment of the prototype to a mix of staff and student evaluators, feedback suggested that the tool was highly valued in its provision of contextual overviews, its structured guidance features, and its ability to make approaching complex ideas less daunting. There was suggestion for improvement with the limitations of the narrow training dataset which led to repetitive and occasionally outdated recommendations, as well as evidence of a need to create further guardrails against the tool generating full-blown essay outlines for students.",
+      "After this 12 month project, ‘Brainard the Fox’ demonstrated some key learnings for the integration of AI in education. Primarily, this was around the importance of addressing pedagogical and ethical concerns in the department when integrating these sorts of tools - there is a critical need for clear usage guidelines and ongoing discussions about academic integrity in humanities when using AI. The project team concluded that AI tools work best when they intend to enhance rather than replace traditional academic skills."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "CompSci Course Guide Bot",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/compsci-course-guide-bot",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT",
+      "Microsoft Copilot"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "feedback"
+    ],
+    "key_themes": [
+      "time savings",
+      "rapid prototyping"
+    ],
+    "summary": "As a collaboration between the Department of Computer Science, the AI Competency Centre, and the Centre for Teaching and Learning, the AI Teaching and Learning project ‘Computer Science Course Guide Chatbot’ intended to create an AI-driven course guide for CompSci students to provide instant, tailored academic guidance. This was driven by student feedback that details essential to their courses, including lecture times, eligibility criteria, and sign-up procedures, were difficult to find due to",
+    "source_paragraphs": [
+      "As a collaboration between the Department of Computer Science, the AI Competency Centre, and the Centre for Teaching and Learning, the AI Teaching and Learning project ‘Computer Science Course Guide Chatbot’ intended to create an AI-driven course guide for CompSci students to provide instant, tailored academic guidance. This was driven by student feedback that details essential to their courses, including lecture times, eligibility criteria, and sign-up procedures, were difficult to find due to being spread across multiple areas. This chatbot helps to keep students better informed and to reduce unnecessary stress.",
+      "Through development, the bot went through several iterations and platforms, from the original version being built in Microsoft Copilot Studio, then trying it out as a custom GPT in ChatGPT, until settling to build the bot using OpenAI’s API so it could be embedded in Moodle. the department’s virtual learning environment. Technical support provided by the AI Competency Centre with Haseeb Ahmad, Senior Research Software Engineer, and Dominik Lukes, Lead Business Technologist, enabled the project to experiment with this selection of tools, allowing them to settle on a solution.",
+      "Once the prototype was ready, testing with staff and students revealed strong engagement with the bot being praised for its convenience and accessible tone. Limitations were found in its small data pool, particularly when it lacked knowledge about historical teaching assignments. An important learning was the need for scope control to avoid the bot hallucinating these answers and instead making sure it could say ‘I don’t know’. Its greatest strength though was that it could be embedded in an existing student environment rather than increasing the amount of places information can be found, made possible by the technical expertise from the AI and ML Competency Centre. This tool is now scheduled for full rollout to Computer Science students in the 25/26 academic year."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Creating custom GPTs to support teaching and learning",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/creating-custom-gpts-to-support-teaching-and-learning",
+    "contributor_line": "Cornelia Wiedenhofer, Lecturer in German Language, Programme Lead, Language Centre/Oxford Lifelong Learning; Worcester College",
+    "people": [
+      "Cornelia Wiedenhofer"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Gemini",
+      "NotebookLM"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "ocr and extraction",
+      "feedback"
+    ],
+    "key_themes": [
+      "time savings",
+      "socratic prompting",
+      "draft refinement",
+      "workflow redesign"
+    ],
+    "summary": "As a language practitioner, there are countless ways in which tools like ChatGPT, NotebookLM, and ElevenLabs have supported my work. GenAI is really strong at language, hence very useful for resource creation (e.g. tailored interactive vocab apps, audio and text), and for rote tasks such as structuring course programmes and mapping learning objectives to specific templates. It also acts as a reflective partner in ideation, and helps me test and sharpen task designs. Before using GenAI, all of th",
+    "source_paragraphs": [
+      "As a language practitioner, there are countless ways in which tools like ChatGPT, NotebookLM, and ElevenLabs have supported my work. GenAI is really strong at language, hence very useful for resource creation (e.g. tailored interactive vocab apps, audio and text), and for rote tasks such as structuring course programmes and mapping learning objectives to specific templates.",
+      "It also acts as a reflective partner in ideation, and helps me test and sharpen task designs. Before using GenAI, all of this was done manually, and many routine tasks were rather time consuming.",
+      "I have developed two custom GPTs: one for supporting my own task design and that of colleagues; and one I shared with students.",
+      "Custom GPT to support task design",
+      "I created a custom GPT that acts as an instructional design coach grounded in the CEFR action-oriented approach, which views learners as social agents performing meaningful communicative tasks. Its purpose is not to generate ready-made classroom activities, but to support me in refining and stress-testing task ideas. It helps ensure that language learning is conceptualised as social action with a clear communicative purpose and that task design remains aligned with the intended learning objectives. I use this custom GPT as a thinking partner to flesh out ideas and identify gaps in my design (e.g. limited learner agency, unclear communicative purpose, missing mediation or plurilingual component).",
+      "The GPT is configured to respond socratically, i.e. asking focused questions before suggesting revisions, so that the intellectual and pedagogical decisions remain with me.",
+      "I developed an equivalent version in Gemini as \"Gem\" to be able to compare behaviours and outcomes. Since custom GPTs come with many strings attached, I have run the same custom instructions as a project, which is better for cross-chat memory but unlike custom GPTs they cannot be shared directly with others.",
+      "Custom GPT to support students",
+      "I developed a custom GPT translation coach for my Year 2 and Year 4 German students that supports reflective revision rather than simply correcting their work. It draws on a shared grammar reference, model answers and common error patterns, and responds by asking targeted questions, highlighting key linguistic issues, pointing students to the relevant grammar sections, and suggesting follow-up exercises for focused practice. The aim is to strengthen students’ self-editing skills, grammatical awareness and to provide additional practice opportunities. Students valued the additional practice and the opportunity to build AI literacy, but concerns were raised about using limited tutorial time for this exploration. We also struggled with a key question: how can you know whether the AI is correct if you don’t yet know the answer yourself? That uncertainty about when to trust the output led to productive conversations about verification strategies and the continued importance of tutor feedback.",
+      "Without AI I could not have experimented with as many creative and fun ideas in my teaching. While some routine tasks like drafting objectives, generating vocabulary lists and activities are much quicker, my overall workload hasn’t really reduced. The time saved is usually reinvested in exploring, testing, and trying to stay current in a fast-evolving field.",
+      "I am able to spend more time thinking about pedagogy rather than formatting or drafting from scratch. I’ve learned practical prompting strategies and how to get better outputs, and the process has strengthened my confidence in the value of my own expertise and judgement.",
+      "If you are interested in implementing AI tools into workflows or the classroom, I would recommend involving students or colleagues early. Their scepticism will teach you as much as the tool does."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators"
+    ],
+    "browser_guardrails": [
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "Exploring AI-Human Triangulation for Research Reproducibility",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/exploring-ai-human-triangulation-for-research-reproducibility",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "learning support",
+      "student support",
+      "research workflow",
+      "digital humanities",
+      "coding support"
+    ],
+    "key_themes": [
+      "human review",
+      "critical use"
+    ],
+    "summary": "The reproducibility crisis in science has underscored the urgent need for better research practices and more transparent methodologies. The ‘Exploring AI-Human Triangulation for Research Reproducibility’ project set out to investigate how generative AI could be used not just to automate reproducibility checks, but to actively teach students the critical thinking skills needed to evaluate research themselves. Rather than positioning AI as a replacement for human judgement, the project aimed to em",
+    "source_paragraphs": [
+      "The reproducibility crisis in science has underscored the urgent need for better research practices and more transparent methodologies. The ‘Exploring AI-Human Triangulation for Research Reproducibility’ project set out to investigate how generative AI could be used not just to automate reproducibility checks, but to actively teach students the critical thinking skills needed to evaluate research themselves.",
+      "Rather than positioning AI as a replacement for human judgement, the project aimed to embed human critique into every stage - using AI to scaffold the process, not take it over. The goal was to create a learning experience where AI supports rigorous analysis while ensuring students remain the ultimate decision-makers.",
+      "With technical support from Xavier Laurent, Training Manager, and Haseeb Ahmad, Senior Research Software Engineer, in the AI Competency Centre, the team developed the ‘Reproducibility Analyser’: a web-based application that combines large language models with a structured checklist of reproducibility standards. The tool guides users through evaluating research manuscripts, presenting both a PDF viewer and the AI’s step-by-step reasoning for each checklist item.",
+      "A codesign workshop with students in March 2025 provided valuable feedback. Participants appreciated the transparency of the AI’s reasoning and suggested improvements such as breaking down checklist items into smaller, more manageable components to facilitate more precise evaluation.",
+      "Key lessons emerged. Transparency and explain-ability are not optional features but essential pedagogical tools. Involving students as co-designers strengthens both the tool and the learning experience. While rapid prototyping proved useful, it also highlighted the need for a simple, intuitive interface when the goal is education rather than experimentation.",
+      "Ultimately, the project reinforced that integrating AI into education should not be about handing over decisions to machines, but about creating reflective, supportive systems that deepen human insight."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "How students used GenAI during their Astrophoria Foundation Year",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/how-students-used-genai-during-their-astrophoria-foundation-year",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "learning support",
+      "student support",
+      "ocr and extraction",
+      "feedback",
+      "accessibility"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "socratic prompting",
+      "personalization",
+      "motivation"
+    ],
+    "summary": "Students on the University’s Astrophoria Physical Sciences Foundation Year course used ChatGPT Edu in a variety of ways to support their learning during the 2024-25 academic year, with a particular focus on revision and independent study. They explored using the tool as a conversational study assistant, a revision partner, and a note organiser, experimenting with features such as projects, voice mode, and image uploads, adapting usage to their own study styles. Common approaches taken by student",
+    "source_paragraphs": [
+      "Students on the University’s Astrophoria Physical Sciences Foundation Year course used ChatGPT Edu in a variety of ways to support their learning during the 2024-25 academic year, with a particular focus on revision and independent study. They explored using the tool as a conversational study assistant, a revision partner, and a note organiser, experimenting with features such as projects, voice mode, and image uploads, adapting usage to their own study styles.",
+      "Common approaches taken by students during the 2024/25 academic year included:",
+      "Socratic tutoring, where students asked ChatGPT to guide them through problems step by step, encouraging active reasoning rather than passively receiving solutions. Students reported that this made revision feel more like a dialogue than solitary reading.",
+      "Summarising and organising notes, where students uploaded lecture handouts or handwritten work to generate clear, structured summaries. This helped them with breaking down complex material into manageable revision aids.",
+      "Accessibility features, such as using voice mode to revise without typing, or vision tools to interpret handwritten equations, which broadened the ways they could engage with study material.",
+      "Personalisation, with some students assigning ChatGPT a “professional tutor” persona to help them deepen their examination of ideas and arguments.",
+      "Students also identified limitations in the GenAI tools they explored. Accuracy issues, particularly in mathematics, meant they had to be cautious not to reinforce mistakes. The tool was sometimes reluctant to mark answers strictly, leaning towards confirming responses as correct. Practical drawbacks, such as the inability to produce diagrams or the difficulty of exporting equations in usable formats, also emerged.",
+      "Despite these challenges, students reported that ChatGPT Edu made revision more engaging, provided quick feedback when tutors were not available, and sustained their motivation during long study sessions. All agreed they would want to keep access, highlighting its tutoring support and ability to structure notes as most valuable.",
+      "Key lessons included the importance of:",
+      "Framing AI as a complement to independent thinking rather than a shortcut.",
+      "Training students to use strategies such as projects, Socratic questioning, and role assignment to get the best results.",
+      "Encouraging critical engagement with outputs to build confidence without overreliance.",
+      "The Astrophoria trial suggests that, when used thoughtfully and with guidance, ChatGPT Edu can support students with independent, active learning and provide new ways of approaching revision in science subjects."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "pAIpercast: Paper to podcast",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/paipercast-paper-to-podcast",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "survey analysis"
+    ],
+    "key_themes": [
+      "critical use"
+    ],
+    "summary": "The ‘pAIpercast: Paper to podcast’ project aimed to create an immersive learning experience by presenting information as a dialogue between an interviewer and guests. This enables students to distil lengthy research papers into concise podcasts so they can grasp key concepts quickly and in a more engaging format. The project team was supported by Edward Fauchon-Jones, Senior Research Software Engineer from the AI Competency Centre, who containerised the original code for the product, made this m",
+    "source_paragraphs": [
+      "The ‘pAIpercast: Paper to podcast’ project aimed to create an immersive learning experience by presenting information as a dialogue between an interviewer and guests. This enables students to distil lengthy research papers into concise podcasts so they can grasp key concepts quickly and in a more engaging format.",
+      "The project team was supported by Edward Fauchon-Jones, Senior Research Software Engineer from the AI Competency Centre, who containerised the original code for the product, made this more production ready and deployed it as a Streamlit website. As the project continues to develop, Edward stills acts as a code reviewer for the team.",
+      "Following deployment in Trinity term, feedback survey results from students found that podcasts worked well as a second source of information which helped them pick up on missed details from research papers, allowing them to feel more confident when entering discussions. Tutors also saw benefits to student preparation and as a way to help promote inclusive learning. Improvements were suggested in regards to the tone of the podcasts though as students found they were overly positive and lacked scientific nuance.",
+      "The team suggests that if others are considering applying AI in teaching and learning that establishing a strong collaborative team with diverse skills; spanning technical expertise, pedagogical understanding, and practical teaching experience across various disciplines and contexts is essential. It is important to not simply deploy AI tools; instead, focus on pedagogical integration by providing clear guidance for students on how to actively engage with the content, and support tutors in designing effective, AI supported learning activities that foster deeper engagement and critical thinking."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "Streamlining coding and editing workflows with ChatGPT Edu",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/streamlining-coding-and-editing-workflows-with-chatgpt-edu",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "coding support",
+      "workflow improvement",
+      "process improvement"
+    ],
+    "key_themes": [
+      "draft refinement",
+      "workflow redesign"
+    ],
+    "summary": "I’ve found ChatGPT Edu is a useful tool for assisting with editing both R code and text. For R code writing, I used to edit my code manually and amend it based on advice I could find in online resources, such as Stack Overflow forums. However, this advice was usually not directly related to my application and it would require some rewriting to work with my existing variables. For editing text, I used to do this manually by reading my paragraphs sentence by sentence and replacing jargon words wit",
+    "source_paragraphs": [
+      "I’ve found ChatGPT Edu is a useful tool for assisting with editing both R code and text. For R code writing, I used to edit my code manually and amend it based on advice I could find in online resources, such as Stack Overflow forums. However, this advice was usually not directly related to my application and it would require some rewriting to work with my existing variables.",
+      "For editing text, I used to do this manually by reading my paragraphs sentence by sentence and replacing jargon words with layman terms (if I was writing text for a more generic audience) or summarising text into shorter more concise sentences (if I was writing text for a given word count). I would usually just search in a thesaurus for different suggestions for phrasing.",
+      "Now, using ChatGPT, I can provide code that I’ve written and ask in the prompt for specific modifications for a given output. For example, I might ask it to change code to modify ggplot box width, or to rewrite code so that plots are generated in a loop rather than individually. It can then suggest changes that are directly relevant to the code I have already written and the variables I already use.",
+      "And now, using ChatGPT, I can provide the draft text that I have written and simply prompt AI to \"change this text into layman language and in 150 words\" and it can give some suggestions of how to rewrite some phrases more concisely or clearly while retaining the original message. I then work back and forth, tweaking some sections based on the suggestions I like best.",
+      "Both applications have accelerated my processes, helped suggest words I might not have thought of using a thesaurus or dictionary alone, and offered clearer ways of arranging text or scripting code. I find that ChatGPT is most useful for modifying or enhancing material I’ve already written, as there’s already sufficient detail and original contribution in the starting prompt. This allows me to feel confident taking credit for the output, which only includes small additional contributions from the tool."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Coding, Automation & Tool Building",
+      "Writing, Communication & Content"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Educators"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Support for Neurodiverse Humanities Students",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/support-for-neurodiverse-humanities-students",
+    "contributor_line": "",
+    "people": [],
+    "tools": [],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "policy implementation",
+      "accessibility"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "scalability",
+      "workflow redesign",
+      "context-rich prompting"
+    ],
+    "summary": "The AI Teaching and Learning project, ‘Support for Neurodiverse Humanities Students’, aimed to enhance student learning experience, particularly neurodivergent students, without generating significant additional workload for staff. This was done by creating a platform for academic staff with the right resources, guidelines, and tools for them to convert their own learning materials into a variety of formats. This was a collaborative project between the AI Competency Centre, the Centre for Teachi",
+    "source_paragraphs": [
+      "The AI Teaching and Learning project, ‘Support for Neurodiverse Humanities Students’, aimed to enhance student learning experience, particularly neurodivergent students, without generating significant additional workload for staff. This was done by creating a platform for academic staff with the right resources, guidelines, and tools for them to convert their own learning materials into a variety of formats. This was a collaborative project between the AI Competency Centre, the Centre for Teaching and Learning, and the Humanities Division.",
+      "Anders Reagan, Lead Business Technologist at the AI Competency Centre, built a comprehensive toolkit in Notion to enable academic staff to convert existing teaching materials into written, auditory, visual and interactive formats so that students with diverse cognitive profiles can engage with core concepts on equal terms. The platform integrates scholarship on inclusive education, aligns with Uni data-governance policy and offers practical workflows that can be embedded in a standard teaching timetable with adding undue workload. With this toolkit, lecturers or educators are enabled to convey teaching materials to students in a multi-modal buffet of content ranging from lecture summaries to audio overviews, diagrams, and mind maps.",
+      "This platform was provided to lecturers in the Medieval and Modern Languages faculty who in using these AI tools were able to provide their students for some of their seminars with a variety of different options for learning. The students themselves reported overwhelming satisfaction with the new materials and requested that all lectures feature a similar variety of teaching materials to make education even more accessible.",
+      "This project was designed in such a way that educators would be able to provide this variety of teaching materials to their students without having to necessarily do even more work which would make this accessibility measure untenable in the long run and unable to scale up.",
+      "Critically, these tools were provided to the educators themselves, who were in a position to evaluate the faithfulness of the outputs against their own expertise. This was as opposed to simply providing these tools to the students, who may or may not be able to tell the extent to which these various AI products were hallucinating information. It's the intention of all teams involved now to scale up access to this portal and provide everyone at the University with detailed training on how to use these tools to help all students, not just neurodivergent students, to engage with course materials and to make learning more accessible, enjoyable, and impactful."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Supporting clear pedagogy with ChatGPT and NotebookLM",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/supporting-clear-pedagogy-with-chatgpt-and-notebooklm",
+    "contributor_line": "Davide Bilardi, Teaching Fellow, Primary Care Health Sciences",
+    "people": [
+      "Davide Bilardi"
+    ],
+    "tools": [
+      "ChatGPT",
+      "NotebookLM"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "policy implementation"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "draft refinement",
+      "context-rich prompting"
+    ],
+    "summary": "Within the MSc in Global Healthcare Leadership programme, I design and deliver teaching for senior healthcare professionals that integrates global health, leadership theory, organisational studies, health policy, and research methods. Preparing these sessions requires synthesising interdisciplinary literature into coherent conceptual narratives and translating theory into applied executive learning contexts. Previously, this process involved extensive manual drafting of teaching notes, iterative",
+    "source_paragraphs": [
+      "Within the MSc in Global Healthcare Leadership programme, I design and deliver teaching for senior healthcare professionals that integrates global health, leadership theory, organisational studies, health policy, and research methods. Preparing these sessions requires synthesising interdisciplinary literature into coherent conceptual narratives and translating theory into applied executive learning contexts.",
+      "Previously, this process involved extensive manual drafting of teaching notes, iterative restructuring of lecture narratives, and repeated refinement before converting material into slides and discussion formats.",
+      "GenAI has supported the structural and reflective stages of this process. I use it to test the coherence of teaching notes derived from my own research and prior materials, examine logical flow, identify implicit assumptions, and stress-test conceptual clarity before finalising session design. All conceptual content remains grounded in my disciplinary expertise and scholarship; AI is used to interrogate and refine structure rather than generate original academic material. The result are more interactive sessions with the students and a sharper presentation of the key concepts.",
+      "In addition, I have used AI tools to transform curated readings and my own lecture drafts into alternative learning formats (e.g., structured audio summaries) to extend access for executive learners.",
+      "ChatGPT has acted as a structured thinking partner to:",
+      "Test the architecture of teaching notes and session narratives developed from my own drafts.",
+      "Generate alternative conceptual framings of arguments I have already constructed (e.g., systems lens vs managerial lens).",
+      "Identify gaps, ambiguities, weak transitions, or oversimplifications.",
+      "Produce scenario-based discussion prompts tailored to experienced global healthcare professionals.",
+      "Deliberately critique my arguments and surface potential counter-positions.",
+      "My prompts typically include:",
+      "Clear learning objectives and specification of audience (senior, international healthcare leaders).",
+      "Instruction to adopt a critical and interdisciplinary stance with accuracy of the level of challenge I want to bring to the class.",
+      "A request to identify blind spots, assumptions, or limitations in the argument presented.",
+      "NotebookLM has been used to:",
+      "Convert selected readings and my lecture drafts into structured podcast-style summaries.",
+      "Provide audio reinforcement of conceptually dense material, supporting revision and reflection outside formal contact hours.",
+      "I stress the fact that all outputs are reviewed, edited, and aligned with programme-level learning outcomes. AI-generated material is never used without academic scrutiny and adaptation.",
+      "Overall, the implementation of GenAI has redistributed effort from structural drafting toward deeper pedagogical design and critical reflection. Initial drafting of session structure is faster (approximately 30–40% reduction in early-stage drafting time), allowing greater focus on higher-order pedagogical refinement rather than mechanical restructuring. Using AI to critique and stress-test arguments reduces the risk of unexamined assumptions and improves coherence across interdisciplinary material. Audio summaries created from lecture drafts allow executive learners to revisit complex theoretical content while balancing demanding professional roles. These resources reinforce rather than replace engagement with core readings.",
+      "As a non-native English speaker working within an English-dominant academic environment, I use AI to refine clarity of expression and ensure that conceptual nuance is accurately conveyed. The intellectual ideas remain my own; the tool assists in sharpening articulation and identifying ambiguous phrasing. This supports precision without altering authorship.",
+      "GenAI should be approached as a structured thinking partner rather than a content generator. Its value lies in helping clarify arguments, surface blind spots, test assumptions, and refine structure. Users should be explicit about audience, epistemic stance, and learning objectives when prompting, and should deliberately ask the system to identify weaknesses or counter-positions. Outputs must always be critically reviewed and academically verified.",
+      "It is also important to recognise that English functions as the dominant language of global scholarship. Being born and educated in an English-speaking context confers a structural advantage within academic systems. Intellectual rigour, methodological strength, and innovative thinking, however, are not properties of any particular language. They are human capacities distributed globally.",
+      "For colleagues and students working in a second or third language, AI tools can play a meaningful role in promoting inclusivity. They can help refine clarity, strengthen academic tone, and ensure that complex ideas are expressed with precision without altering authorship or intellectual ownership. In this sense, AI can reduce linguistic barriers that may otherwise obscure strong ideas, allowing scholarly contribution to be evaluated on conceptual merit rather than fluency alone.",
+      "Used responsibly, GenAI has the potential to support more equitable participation in academic discourse. However, this requires a clear boundary: AI may assist in articulation and critical reflection, but it must never substitute for original thinking, disciplinary knowledge, or scholarly accountability."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "Unlocking Ecological Data with GenAI",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/unlocking-ecological-data-with-genai",
+    "contributor_line": "Charles Godfray, Director, Oxford Martin School",
+    "people": [
+      "Charles Godfray"
+    ],
+    "tools": [
+      "Gemini"
+    ],
+    "categories": [
+      "research workflow"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "scalability"
+    ],
+    "summary": "For Charles, a longstanding research ambition had always been hampered by the scale of the task. He wanted to test hypotheses in community ecology using data from mid-20th century publications on parasitic wasps. The information was there but locked away in unstructured text that would have taken at least two weeks of full-time manual effort to extract. With generative AI, that barrier disappeared. Charles fed around 500 pages of scientific papers into Google Gemini, each describing host relatio",
+    "source_paragraphs": [
+      "For Charles, a longstanding research ambition had always been hampered by the scale of the task. He wanted to test hypotheses in community ecology using data from mid-20th century publications on parasitic wasps. The information was there but locked away in unstructured text that would have taken at least two weeks of full-time manual effort to extract.",
+      "With generative AI, that barrier disappeared. Charles fed around 500 pages of scientific papers into Google Gemini, each describing host relations of a group of parasitic wasps. The AI was asked to abstract the information and return it as a structured spreadsheet with ten specific columns. His prompt carefully explained the different conventions used in the original papers and the exact spreadsheet format required. The result was a clean dataset from which food webs could be constructed, which were then used to explore hypotheses about ecological community structuring.",
+      "AI was also used to convert a modern PDF checklist into a spreadsheet and then update and check species nomenclature against it. To test accuracy, Charles randomly selected 50 entries from the generated spreadsheet and found just two minor errors, neither of which affected the ecological analyses.",
+      "A task Charles had considered but postponed for 20 years because of the daunting workload was achieved in minutes. What once seemed unfeasible became possible with the right application of AI.",
+      "His advice for others at Oxford is simple: don’t be afraid of long and quite complex prompts. The more detail you provide about the data, conventions, or output format; the better the AI will perform."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Using AI as an Administrative Assistant and Critical Friend in Education Research",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/using-ai-as-an-administrative-assistant-and-critical-friend-in-education-research",
+    "contributor_line": "Sara Ratner, Principal Investigator of the AI in Education Oxford University (AIEOU) Research Hub and Researcher on the Learning in Families through Technology (LiFT) in the Department of Education",
+    "people": [
+      "Sara Ratner"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "policy implementation",
+      "communications",
+      "draft review",
+      "revision support"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "scalability",
+      "draft refinement",
+      "context-rich prompting"
+    ],
+    "summary": "My work for the AI in Education Oxford University (AIEOU) Research Hub and Department of Education explores pedagogy, policy and technology. In practice, I have found AI useful both as an administrative assistant and as a critical friend. In its administrative capacity, ChatGPT has assisted with drafting newsletters, refining communications and producing copy for materials. It has also been valuable in helping me reshape research outputs for policymakers and practitioners. In its critical friend",
+    "source_paragraphs": [
+      "My work for the AI in Education Oxford University (AIEOU) Research Hub and Department of Education explores pedagogy, policy and technology.",
+      "In practice, I have found AI useful both as an administrative assistant and as a critical friend. In its administrative capacity, ChatGPT has assisted with drafting newsletters, refining communications and producing copy for materials. It has also been valuable in helping me reshape research outputs for policymakers and practitioners. In its critical friend role, AI functions as a kind of peer reviewer for my drafts. I often ask it to read my work as a critical reviewer, highlighting weaknesses, gaps or structural issues. I then critically evaluate its observations and decide what revisions are worth pursuing.",
+      "The benefits have been significant. The workload has been reduced, outputs improved, and communications scaled in ways that would not otherwise have been possible. Regular newsletters, timely updates and well-presented conference materials now reach thousands of collaborators around the world.",
+      "For colleagues beginning to use ChatGPT Edu at Oxford, I would recommend taking time to train the system in the context of your work. Providing it with examples of high-quality work helps it approximate the style and standards you wish to achieve. Supplying it with context about your audience and aims is equally important. I have found it helpful to assign it a role, such as that of a critical reviewer, and to give clear instructions on what kind of output I require, whether a policy summary, newsletter or peer review commentary. The most productive exchanges arise when one treats the AI as a colleague to be debated.",
+      "Nevertheless, it is essential to remember that the responsibility for quality and ethics rests with the researcher. AI can produce rapid and sometimes insightful work, but it is the human scholar who must take responsibility for accuracy, interpretation and the final form of the work."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Voice Chatbot for Language Learning",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/voice-chatbot-for-language-learning",
+    "contributor_line": "",
+    "people": [],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "learning support",
+      "student support",
+      "research workflow",
+      "transcription",
+      "draft review"
+    ],
+    "key_themes": [
+      "time savings",
+      "personalization"
+    ],
+    "summary": "Oral practice is a cornerstone of language learning, yet in traditional classroom settings, opportunities to speak can be limited - especially for learners who experience anxiety or lack confidence. The ‘Voice Chatbot for Language Learning’ project set out to address this by developing an AI-powered voice chatbot that offers low-pressure, personalised speaking practice. Learners would then receive a transcription of both their own speech and the chatbot’s responses, allowing them to review and r",
+    "source_paragraphs": [
+      "Oral practice is a cornerstone of language learning, yet in traditional classroom settings, opportunities to speak can be limited - especially for learners who experience anxiety or lack confidence. The ‘Voice Chatbot for Language Learning’ project set out to address this by developing an AI-powered voice chatbot that offers low-pressure, personalised speaking practice. Learners would then receive a transcription of both their own speech and the chatbot’s responses, allowing them to review and reflect after each conversation.",
+      "Focusing initially on French, the team - supported by Dominik Lukes, Lead Business Technologist, and Edward Fauchon-Jones, Senior Research Software Engineer, from the AI Competency Centre - first tested GPTs within ChatGPT Edu and other voice chatbot platforms. The project then progressed to a standalone application building on the work done with the GPTs, resulting in a first test rollout in week 4 of Trinity term.",
+      "In week 9, Dominik Lukes ran workshop at the Language Centre which brought together language teachers to explore the tool’s potential in Russian, Spanish, and Italian. Teachers responded enthusiastically, noting the chatbot’s adaptability and potential for integration into their courses.",
+      "Results were encouraging: the chatbot demonstrated strong comprehension of learner input, with some students sustaining extended exchanges even when gaps in understanding arose. Requests for continued access over the long vacation reflected learner engagement and enthusiasm.",
+      "However, the project also surfaced important considerations. Not all students were keen to engage, citing time constraints, environmental concerns about AI, or uncertainty over institutional support. The team noted that discipline-specific use would require careful prompt design to avoid overly general or verbose AI responses. Key lessons included ensuring that students have the choice not to use AI, embedding tools in meaningful scenarios, and involving learners as active partners in development."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Writing and Translation Feedback Tool",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/writing-and-translation-feedback-tool",
+    "contributor_line": "As part of the AI Teaching and Learning Exploratory Fund, colleagues in the Humanities Division, the Centre for Teaching and Learning, and the AI Competency Centre worked together to create a Writing and Translation Feedback Tool to assist students with German translation.",
+    "people": [
+      "Learning Exploratory Fund"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "student support",
+      "research workflow",
+      "feedback"
+    ],
+    "key_themes": [
+      "rapid prototyping",
+      "draft refinement"
+    ],
+    "summary": "As one of 12 projects support by the AI Teaching and Learning Exploratory Fund, the Writing and Translation Feedback Tool project aimed to create a prototype capable of supporting students in translating literary fiction passages from English into German by providing feedback modelled on tutor responses. The tool was intended to detect mistakes and offer students contextualised feedback, rather than supplying direct corrections. This aimed to address the increasing demand for scalable, high-qual",
+    "source_paragraphs": [
+      "As one of 12 projects support by the AI Teaching and Learning Exploratory Fund, the Writing and Translation Feedback Tool project aimed to create a prototype capable of supporting students in translating literary fiction passages from English into German by providing feedback modelled on tutor responses. The tool was intended to detect mistakes and offer students contextualised feedback, rather than supplying direct corrections. This aimed to address the increasing demand for scalable, high-quality feedback in language learning, giving students an immediate and interactive learning environment.",
+      "The project team consisted of language instructors, educational developers, and technical specialists. From the AI Competency Centre, Senior Research Software Engineer, Edward Fauchon-Jones, supported the project through his technical expertise. He was able to assist in the changing of AI platforms, from initial ChatGPT-based to building the tool using GPT-4.1, as well as the technical deployment of the tool in cloud-hosting spaces and sharing frameworks.",
+      "Following testing of the prototype in Trinity Term 2025, students responded positively to the concept of the tool and appreciated having immediate feedback on their translations, though did highlight certain usability issues to be ironed out in future iterations. Overall, the tool showed potential as a support mechanism for revising first drafts and generative class discussion but fell short as a standalone self-study tool.",
+      "One of the key takeaways from this project was that AI tools must be carefully aligned with pedagogical intent. The value in the tool lay in generating discussion and encouraging student reflection, rather than replacing human teaching. In this way, the project demonstrated how AI can enhance, rather than diminish, education experiences when used appropriately."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Analysis & Review"
+    ],
+    "browser_audience": [
+      "Students",
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations",
+      "Pedagogical or integrity concerns"
+    ]
+  },
+  {
+    "title": "AI for horizon scanning",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/digital-governance-unit-ai-for-horizon-scanning",
+    "contributor_line": "Nandy Millan, Digital Innovation Manager, Digital Governance Unit",
+    "people": [
+      "Nandy Millan"
+    ],
+    "tools": [],
+    "categories": [
+      "learning support",
+      "research workflow"
+    ],
+    "key_themes": [
+      "time savings"
+    ],
+    "summary": "I have used AI to build a horizon scanning, emerging trends bot. GenAI is tremendously helpful to compile information from different sources in seconds, run analysis and produce tailored reports. It is a massive time saver and very good at analysing trends. Before, this required desktop-based research that could take weeks. I have also built a team management HR assistant bot to help me manage team activities like 121s, weekly team meetings, and PDRs. It keeps tracks of items discussed and it fl",
+    "source_paragraphs": [
+      "I have used AI to build a horizon scanning, emerging trends bot. GenAI is tremendously helpful to compile information from different sources in seconds, run analysis and produce tailored reports. It is a massive time saver and very good at analysing trends. Before, this required desktop-based research that could take weeks.",
+      "I have also built a team management HR assistant bot to help me manage team activities like 121s, weekly team meetings, and PDRs. It keeps tracks of items discussed and it flags opportunities for development as it is aligned with POD and continuous improvement guidelines.",
+      "The main benefit is time saving, which is sometimes very significant, reducing a week's work to minutes. AI also helps with trying out new ways of working, for instance, using my HR assistant bot to help me with managing my team.",
+      "My advice is to keep an open mind as the technology keeps improving. What doesn't work today, may work tomorrow. Also, be prepared to save time in one area but spend more time learning and trying to figure out how to do things or what works for you."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Building a Custom Finance Assistant",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/building-a-custom-finance-assistant",
+    "contributor_line": "Kanza Basit, Senior Research Facilitator, Social Sciences Division",
+    "people": [
+      "Kanza Basit"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review"
+    ],
+    "summary": "Kanza Basit often found herself fielding repeated questions from colleagues about finance, reimbursements, and the University’s financial regulations. While answering these queries was essential, it was also time-consuming and often left less room for higher-value work. The feeling was also shared by other senior team members of her team. To solve this, Kanza turned to ChatGPT Edu and created a custom GPT designed specifically for her team. By training it on the University’s financial regulation",
+    "source_paragraphs": [
+      "Kanza Basit often found herself fielding repeated questions from colleagues about finance, reimbursements, and the University’s financial regulations. While answering these queries was essential, it was also time-consuming and often left less room for higher-value work. The feeling was also shared by other senior team members of her team.",
+      "To solve this, Kanza turned to ChatGPT Edu and created a custom GPT designed specifically for her team. By training it on the University’s financial regulations and the Division’s terms and conditions, she built a tool that allows colleagues to ask direct questions and receive clear, step-by-step guidance. Whether it’s checking if an expense is eligible for reimbursement or navigating complex rules, the GPT provides accurate answers instantly - freeing Kanza and her team from having to repeat the same explanations hundreds of times.",
+      "The benefits have been immediate. Tasks that once required staff intervention are now automated, giving colleagues faster access to reliable information while reducing the administrative burden on the team. For Kanza, this means less time spent answering repetitive queries and more time to focus on supporting researchers across the Division.",
+      "Her experience also highlights an important lesson: the quality of the GPT depends on the quality of its training material. Feeding it with accurate, up-to-date documents ensures its guidance is correct. Kanza also recommends rigorous testing before rolling out a custom GPT more widely - trialling it with colleagues to identify gaps, refine prompts, and align outputs with expectations.",
+      "By combining her understanding of team needs with ChatGPT Edu’s flexibility, Kanza has transformed a persistent challenge into a practical solution. Her custom finance assistant is not just a time-saver; it’s an example of how AI can be tailored to meet specific organisational needs, making everyday processes smoother, smarter, and more sustainable."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Coding & Building",
+      "Search & Knowledge",
+      "Workflow Automation"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Communicating human knowledge using AI",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/communicating-human-knowledge-using-ai",
+    "contributor_line": "Ella Wicks, Content Officer, AI Competency Centre",
+    "people": [
+      "Ella Wicks"
+    ],
+    "tools": [
+      "Gemini",
+      "NotebookLM"
+    ],
+    "categories": [
+      "teaching",
+      "learning support",
+      "draft review",
+      "workflow improvement",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "verification",
+      "human review",
+      "draft refinement",
+      "personalization"
+    ],
+    "summary": "Before using GenAI tools, my workflow was informal, fragmented, and heavily reliant on personal knowledge. In my role as Office Manager at the Centre for Teaching and Learning (CTL), many processes were undocumented because the role was new when I joined. Where documentation existed, it was largely personal notes, lists of links, or partial guidance I wrote for my own reference as I got to know the job, rather than specifically written in advance for someone new to the role. When I was seconded",
+    "source_paragraphs": [
+      "Before using GenAI tools, my workflow was informal, fragmented, and heavily reliant on personal knowledge. In my role as Office Manager at the Centre for Teaching and Learning (CTL), many processes were undocumented because the role was new when I joined. Where documentation existed, it was largely personal notes, lists of links, or partial guidance I wrote for my own reference as I got to know the job, rather than specifically written in advance for someone new to the role.",
+      "When I was seconded to the AI Competency Centre, I had a very short window to complete a comprehensive handover with the colleague backfilling my CTL role. I needed to externalise a large amount of tacit knowledge into clear, usable documentation for the incoming Office Manager, as well as two Programme Administrators in the team. Without GenAI, this would have taken many days or potentially weeks, and the quality and consistency of the documentation would likely have been less satisfactory.",
+      "I used a combination of Gemini, Canvas, and NotebookLM. I first asked Gemini to draft a practical Standard Operating Procedure (SOP) template, providing context about my role, the types of processes involved, and the level of formality required. I explicitly requested a human-readable structure rather than a highly formal SOP. I refined this template iteratively in Canvas, then exported it as a Google Doc.",
+      "For each individual process, I opened the SOP template in a new Gemini chat and asked it to walk me through completing the SOP step by step. I instructed Gemini to ask clarifying questions, prompt for missing information, request links to documents, and to avoid inventing any details. Where existing notes existed, I uploaded them and asked Gemini to incorporate them. Each SOP was manually reviewed and edited before I finalised it.",
+      "During handover, I held recorded meetings with the incoming Office Manager to walk through the new SOPs. I uploaded meeting transcripts to Gemini to generate summaries, and after manually verifying their accuracy, I used those notes to update the SOPs again.",
+      "Finally, I uploaded all of the SOPs (as Google Docs) into NotebookLM. I added custom instructions to ensure that any responses to queries were strictly based on the SOP content, and I shared both NotebookLM and the underlying Google Drive folder with the incoming team.",
+      "Creating over 20 SOPs, a general handover document, and a query-friendly knowledge base took less than one working day, cumulatively. Without GenAI, this would have taken many days or weeks and I would never have had the time. The resulting documentation is clearer, more consistent, and more comprehensive than would have been possible under manual time pressure. NotebookLM transformed the handover from static documents into an interactive, searchable knowledge resource. The Office Manager and two Programme Administrators continue to use the SOPs and NotebookLM regularly, reducing uncertainty and reliance on ad hoc support. Without the University’s GenAI tools, producing documentation of this depth, usability, and consistency within the available timeframe would not have been possible.",
+      "My advice: use GenAI as a thinking and structuring partner, not an unchecked author. Don't expect a magic button: you will have to learn how to work with AI. Keep humans in the loop."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Educators",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Generative AI as a design partner for process improvement",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/generative-ai-as-a-design-partner-for-process-improvement",
+    "contributor_line": "Rick Hanley, Senior Grants Officer, Nuffield Department of Medicine",
+    "people": [
+      "Rick Hanley"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "learning support",
+      "coding support",
+      "prototyping",
+      "workflow improvement",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "rapid prototyping",
+      "draft refinement",
+      "workflow redesign"
+    ],
+    "summary": "Before using GenAI tools, my process for developing internal improvements was limited by time and the steep learning curve of software design. I often had ideas for streamlining grant admin workflows or filing processes, but progressing them alongside day-to-day responsibilities was slow and required a lot of trial and error. GenAI has changed that. It has allowed me to prototype, refine and stress-test ideas far more easily, particularly when developing tools like JournalWings (Excel/Oracle jou",
+    "source_paragraphs": [
+      "Before using GenAI tools, my process for developing internal improvements was limited by time and the steep learning curve of software design. I often had ideas for streamlining grant admin workflows or filing processes, but progressing them alongside day-to-day responsibilities was slow and required a lot of trial and error.",
+      "GenAI has changed that. It has allowed me to prototype, refine and stress-test ideas far more easily, particularly when developing tools like JournalWings (Excel/Oracle journal automation) and FileAssist (a configurable document-naming and filing tool). The work itself remains substantial, but progress is steadier. Tasks that would previously have stalled – usually because of architectural uncertainty or getting stuck on a technical detail – now move forward more consistently. AI has not made development instant, but it has removed many of the dead stops that used to slow things down.",
+      "I primarily use ChatGPT as a design partner. I provide it with Python, JavaScript and front-end code, draft UI behaviour, or outline a workflow problem, and it helps me shape solutions. I often iterate by discussing small, focused improvements or by validating architectural decisions before I commit. I also use it to explain unfamiliar concepts and to check my understanding.",
+      "Using GenAI has reduced development time dramatically; I would estimate by 70–80%. My workload has shifted: instead of wrestling with low-level debugging for days, I can focus on designing better workflows and creating tools that are tailor-made to solve targeted pain-points in my department’s processes. It has effectively enabled me to become a part-time developer within a professional services role, creating innovations that previously would have required dedicated IT resource.",
+      "My advice is to treat AI like a collaborator: question it, challenge it, guide it and make it explain things until you understand its decisions. The real power for me has been to treat it as a very enthusiastic teacher that needs frequent reminders of context and direction. You still need to understand what you are trying to achieve. AI can help you assess the steps to get there, but you are driving the process."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Educators",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Improving communications and tracking career progression with AI",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/improving-communications-and-tracking-career-progression-with-ai",
+    "contributor_line": "Becca Chesworth, Digital Communications Officer, Keble College",
+    "people": [
+      "Becca Chesworth"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "communications",
+      "draft review"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "draft refinement"
+    ],
+    "summary": "Becca Chesworth has mostly been using ChatGPT Edu for improving and reviewing her writing. Before using it, she would spend much more time and energy drafting and finalising text, and relying on limited services like Grammarly for grammar checks. She also sought more peer input for support with content and tone. Now, she can generate and refine social media captions, enhance the tone of articles, check newsletter entries, create article blurbs, and improve the structure of new communications doc",
+    "source_paragraphs": [
+      "Becca Chesworth has mostly been using ChatGPT Edu for improving and reviewing her writing. Before using it, she would spend much more time and energy drafting and finalising text, and relying on limited services like Grammarly for grammar checks. She also sought more peer input for support with content and tone. Now, she can generate and refine social media captions, enhance the tone of articles, check newsletter entries, create article blurbs, and improve the structure of new communications documents more quickly and without needing as much support from others. This has also increased Becca’s confidence that she can produce work to the standard she wants and needs.",
+      "Alongside this, Becca created a custom GPT to track her own career and skill progression. By uploading a daily work diary, she can identify the hard and soft skills she has demonstrated each week and spot areas of her job description that may not be reflected in her recent work. This has helped Becca to recognise skills she might otherwise have overlooked. It has given her a clearer picture of where any gaps might be. She uses the custom GPT option to generate weekly summaries less often but when she does, it provides a useful starting point for reflecting or writing about her progression. Overall, this has made her self-reflection easier and more comprehensive.",
+      "Becca has learned that ChatGPT is most effective for her when she provides it with an existing starting point like a draft. It works best for generating ideas, refining content and improving tone, rather than for producing text from scratch. Approaching the tool in this way has meant the final output she uses still feels primarily authored by her, whilst also saving her time and energy."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Analysis, Review & Decision Support",
+      "Writing, Communication & Content"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Improving policy implementation with ChatGPT Edu",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/improving-policy-implementation-with-chatgpt-edu",
+    "contributor_line": "Peter Morgan, Senior Information Governance Officer, Nuffield Department of Medicine",
+    "people": [
+      "Peter Morgan"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "policy implementation",
+      "draft review",
+      "feedback",
+      "process improvement",
+      "information management"
+    ],
+    "key_themes": [
+      "time savings",
+      "draft refinement",
+      "context-rich prompting"
+    ],
+    "summary": "I am implementing a departmental Information Asset Management policy. Broadly this involves identifying Information Asset Owners (IAO), training them, then getting them to identify and record the information of enduring value for which they are responsible (called \"information assets\"). The information asset identification phase is particularly challenging as the concept of an information asset is fairly unintuitive, and very, very broad. Not only is it not always obvious what \"of enduring value",
+    "source_paragraphs": [
+      "I am implementing a departmental Information Asset Management policy. Broadly this involves identifying Information Asset Owners (IAO), training them, then getting them to identify and record the information of enduring value for which they are responsible (called \"information assets\").",
+      "The information asset identification phase is particularly challenging as the concept of an information asset is fairly unintuitive, and very, very broad. Not only is it not always obvious what \"of enduring value means\", but there is a huge variety of information of enduring value held within the university, it exists in a huge variety of forms, and the same collection of information can be defined as multiple different, valid information asset schemas.",
+      "The most effective way of identifying what information assets a given Information Asset Owner holds is to sit with them anywhere between 15-60 minutes talking through what information they work with and suggesting different ways of capturing that as information assets. The problem is that this is incredibly labour intensive and there is only one of me doing this work.",
+      "I created a GPT under my ChatGPT Edu account with the departmental Information Asset Management Policy, the Information Asset Management Training and a suite of useful examples and a set of instructions telling the GPT to advise staff on how to identify their information assets.",
+      "Information Asset Owners can access the GPT, add a bunch of context about the work they do and get recommendations about what information assets they might hold, and providing the basic initial write-up for them. The Information Asset Owners can chat through suggested assets, reject or refine them and leave with a list which hopefully is at least decent quality and makes sense to them.",
+      "The Information Asset Owners can then submit their identified assets for me to review and if I think there are improvements, I will often use the self-same GPT to help me phrase my recommendations.",
+      "There are three main benefits to this GenAI-supported process:",
+      "The submitted first draft information asset lists are better quality than if they just worked on them on their own.",
+      "The Information Asset Owners understand their information assets better than if they just worked on them on their own.",
+      "I save a fair amount of time as I am not providing as much direct 1:1 support and feedback.",
+      "My advice to anyone starting out with GenAI tools is: identify a work problem you are facing, even if you are not wholly clear on what it amounts to. Dump a good amount of context about the problem - what you are trying to achieve, what is happening around it, what seems to be stopping you (even if none of these are very clear) - then ask the chat \"Assess how confident you are that you understand my problem in % terms. Ask me questions, one at a time, about this problem until your confidence in your understanding is 95%, then create a short summary reflecting that understand\".",
+      "Starting a longer, more difficult piece of work with a clearly defined problem statement like this is incredibly useful."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Reducing administrative burden with AI",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/school-of-geography-and-the-environment-reducing-administrative-burden-with-ai",
+    "contributor_line": "Stephen Thomas, Centre Manager, School of Geography and the Environment",
+    "people": [
+      "Stephen Thomas"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "communications"
+    ],
+    "key_themes": [],
+    "summary": "I have been using AI to load meeting notes and create summaries, to do light web research, and to co-developing communication pieces. My new favourite way to use it is improving day-to-day communication with neurodivergent colleagues. I write my email and then ask ChatGPT to make it more appropriate for someone with, for example, autism. This has generally delivered a better result that has improved communication and reduced misunderstanding. AI can quickly size up and estimate the viability and",
+    "source_paragraphs": [
+      "I have been using AI to load meeting notes and create summaries, to do light web research, and to co-developing communication pieces. My new favourite way to use it is improving day-to-day communication with neurodivergent colleagues. I write my email and then ask ChatGPT to make it more appropriate for someone with, for example, autism. This has generally delivered a better result that has improved communication and reduced misunderstanding.",
+      "AI can quickly size up and estimate the viability and approach of new initiatives in a way that might previously have taken a lot longer and required more input just to get to a concept note stage.",
+      "My advice is to try it, enjoy it and to read the University guidance, and not to over-rely on it; it’s a tool, not a replacement for human thinking."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Writing, Communication & Content"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Smarter Coding Support with ChatGPT Edu",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/smarter-coding-support-with-chatgpt-edu",
+    "contributor_line": "Matt Reid, Web Developer, Technology-Assisted Lifelong Learning, Department for Continuing Education",
+    "people": [
+      "Matt Reid"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "coding support",
+      "feedback",
+      "workflow improvement",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "workflow redesign"
+    ],
+    "summary": "As a web developer, Matt Reid often faced the challenge of solving tricky coding problems. Before using ChatGPT Edu, his workflow involved searching Google with carefully chosen keywords, trawling through coding forums, testing potential fixes, and often repeating the process when solutions fell short. While sometimes fruitful, this trial-and-error approach could result in hours lost. With ChatGPT Edu, Matt has reshaped this process. He created a custom GPT tailored to his environment by providi",
+    "source_paragraphs": [
+      "As a web developer, Matt Reid often faced the challenge of solving tricky coding problems. Before using ChatGPT Edu, his workflow involved searching Google with carefully chosen keywords, trawling through coding forums, testing potential fixes, and often repeating the process when solutions fell short. While sometimes fruitful, this trial-and-error approach could result in hours lost.",
+      "With ChatGPT Edu, Matt has reshaped this process. He created a custom GPT tailored to his environment by providing it with details such as his operating system, remote server setup, institutional context, and the software he works with. This means ChatGPT can give context-aware answers, concise at first but ready to expand into detail on request. The integration with tools like his terminal and Visual Studio Code further streamlined the process, reducing the need to copy, paste or reframe context.",
+      "The impact has been tangible: Matt estimates the time he spends fixing bugs and implementing new features has been reduced by about one-third. Beyond efficiencies, ChatGPT has also boosted his confidence to tackle more advanced or unfamiliar problems. Its chat history sidebar helps him to group related ideas by project, which prevents repetition and makes it easier for him to track progress across multiple tasks.",
+      "Matt also values the reassurance that ChatGPT Edu inputs are all private and all data is retained within the University. Because the tool does not record sensitive information, he feels he can focus fully on problem-solving, without worrying about feeling the need to censor his prompts.",
+      "Matt’s advice to others is to approach ChatGPT Edu like a competent colleague: provide assumptions, attempted solutions and context early, and ask for alternatives, with pros and cons, before implementing any new solutions. He also highlights the value of integrating ChatGPT with coding tools for richer, faster feedback, and recommends switching between different large language models if progress stalls."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Privacy or security sensitive"
+    ]
+  },
+  {
+    "title": "Streamlining Grant Writing and Operations with ChatGPT Edu",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/streamlining-grant-writing-and-operations-with-chatgpt-edu",
+    "contributor_line": "Emmanuelle Denis, Senior Operations Manager, Epidemic Diseases Clinical Research Group, Pandemic Sciences Institute",
+    "people": [
+      "Emmanuelle Denis"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "draft review",
+      "workflow improvement",
+      "process improvement",
+      "grants administration"
+    ],
+    "key_themes": [
+      "time savings",
+      "verification",
+      "human review",
+      "draft refinement",
+      "workflow redesign"
+    ],
+    "summary": "Emmanuelle Denis is responsible for coordinating complex grant applications, reviewing detailed funder guidance, and preparing accurate meeting minutes. Before adopting ChatGPT Edu, these processes were slow and manual: drafting proposals by reworking old documents, combing through long guidance documents to find key requirements, and typing up meeting minutes from scratch. Now, ChatGPT has become a central support tool in Emmanuelle’s workflow. For grant applications, she uses it to generate fi",
+    "source_paragraphs": [
+      "Emmanuelle Denis is responsible for coordinating complex grant applications, reviewing detailed funder guidance, and preparing accurate meeting minutes. Before adopting ChatGPT Edu, these processes were slow and manual: drafting proposals by reworking old documents, combing through long guidance documents to find key requirements, and typing up meeting minutes from scratch.",
+      "Now, ChatGPT has become a central support tool in Emmanuelle’s workflow. For grant applications, she uses it to generate first drafts of sections such as project plans and budget narratives. She also asks ChatGPT to cross-check grant applications against funder requirements, ensuring eligibility and compliance. For meetings, she provides ChatGPT with transcripts (with the permission of meeting attendees) and a template, so that it produces concise minutes in the correct style and format, complete with action owners and deadlines. Summarising complex guidance and contracts is also now significantly faster and easier.",
+      "The impact has been clear: faster first drafts, improved accuracy, and a much smoother process overall. Grant writing is less daunting, comprehension of dense documents is quicker, and Emmanuelle’s least favourite task, writing meeting minutes, has become painless.",
+      "Emmanuelle’s advice for others is simple: always verify outputs. For instance, when using ChatGPT to summarise guidance, she asks it to include citations and section references so she can cross-check against the original. She also recommends investing time in carefully formulating prompts, instructing ChatGPT to seek clarification if needed. Finally, she highlights the value of the ‘Projects’ capability in ChatGPT: by uploading guidelines, draft protocols and past applications, she creates a reference base that ChatGPT can draw on, across multiple sessions."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Coding, Automation & Tool Building",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Streamlining IT troubleshooting and building new skills",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/streamlining-it-troubleshooting-and-building-new-skills",
+    "contributor_line": "IT Support Staff",
+    "people": [
+      "IT Support Staff"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "coding support",
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "personalization"
+    ],
+    "summary": "Before using GenAI tools, my process for troubleshooting IT issues would be to search online using Google, often ending up on a trail of Reddit threads or Microsoft forum pages. Many of these contained the same questions but no clear answers, or replies that were vague or condescending. Alternatively, I could ask a colleague and wait, if they were available. None of this was particularly efficient. GenAI has changed that. When I ask an AI tool an IT question, it usually gives me a direct and usa",
+    "source_paragraphs": [
+      "Before using GenAI tools, my process for troubleshooting IT issues would be to search online using Google, often ending up on a trail of Reddit threads or Microsoft forum pages. Many of these contained the same questions but no clear answers, or replies that were vague or condescending. Alternatively, I could ask a colleague and wait, if they were available. None of this was particularly efficient.",
+      "GenAI has changed that. When I ask an AI tool an IT question, it usually gives me a direct and usable answer. If I reply with, “I have tried that”, it will suggest further troubleshooting steps. This back and forth is far quicker than traditional searching and feels more like a conversation with a knowledgeable colleague who actually responds.",
+      "Alongside troubleshooting, I've been using GenAI to develop my IT skills. For example, I’ve been working on a personal project to build a network monitor that alerts me via Alexa and Telegram if a server goes down. I use ChatGPT to produce and explain code, which has been especially helpful given that I have very limited coding experience. This has turned into a larger project than expected, and I'm currently taking a break from it.",
+      "I also regularly use Copilot to troubleshoot issues. Because it's tied into Nexus365, it's particularly useful for tech support queries. ChatGPT, however, is better for coding and for helping me create small projects from scratch when I would not otherwise know where to begin.",
+      "Since adopting GenAI, I've seen clear benefits. As someone working in tech support, if I receive a question that I'm unsure about, I can ask AI to explain the issue or help me construct an answer. It's also been helpful for writing documentation, especially when an issue is complicated and the solution needs to be shared with others. Overall, using AI rather than a normal search engine has saved a significant amount of time that would otherwise be spent sifting through largely irrelevant or low-quality results."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Coding, Automation & Tool Building",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Coding & Building",
+      "Search & Knowledge",
+      "Workflow Automation"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Survey analysis and insight with Copilot and Gemini",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/survey-analysis-and-insight-with-copilot-and-gemini",
+    "contributor_line": "Iulia Costinescu, OxIntranet Community Manager, IT Services",
+    "people": [
+      "Iulia Costinescu"
+    ],
+    "tools": [
+      "Gemini",
+      "Microsoft Copilot"
+    ],
+    "categories": [
+      "survey analysis",
+      "communications",
+      "draft review",
+      "feedback",
+      "workflow improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "draft refinement",
+      "personalization",
+      "workflow redesign"
+    ],
+    "summary": "Before using generative AI tools, analyzing survey data from internal projects and preparing insight summaries for stakeholders was often a time-pressured process. Extracting themes from qualitative responses required careful manual review, and visualization was sometimes limited because outputs were produced close to deadlines. As a result, findings were occasionally shared in fairly basic formats that didn’t always highlight patterns or strategic implications as clearly as I would have liked.",
+    "source_paragraphs": [
+      "Before using generative AI tools, analyzing survey data from internal projects and preparing insight summaries for stakeholders was often a time-pressured process. Extracting themes from qualitative responses required careful manual review, and visualization was sometimes limited because outputs were produced close to deadlines. As a result, findings were occasionally shared in fairly basic formats that didn’t always highlight patterns or strategic implications as clearly as I would have liked.",
+      "I had always wanted to present survey insights in a more structured and engaging way, but didn’t always have the capacity to go beyond basic text and bullet points.",
+      "Using generative AI tools has helped me move more quickly from raw data to structured insight. I have used Microsoft Copilot and Google Gemini to analyze anonymized survey data and identify recurring themes, trends, and outliers. I upload cleaned and fully anonymized datasets, ensuring that no personal, contact, or identifiable information is included, or paste anonymized qualitative responses.",
+      "For example, I might prompt: “Identify recurring themes in these anonymized responses and summarize key insights for a senior leadership audience. Highlight risks, opportunities, and suggested next steps.” For quantitative data, I also ask for suggestions on meaningful comparisons or ways to visualize trends more clearly. All outputs are carefully reviewed and checked against the raw data before being shared.",
+      "Using GenAI has reduced the time required for the initial stages of analysis and synthesis. Tasks that previously required several hours of manually reviewing responses and drafting early summaries can now start with a structured first pass generated by the tool, which I then validate and refine.",
+      "This shift has changed how I spend my time during the reporting process. I can now focus more on interpreting the insights and thinking about how best to communicate them to stakeholders, rather than concentrating mainly on the mechanics of extracting themes. It has also supported clearer reporting and more confident communication of insights to senior audiences.",
+      "I am also exploring how GenAI could support recurring communications workflows, such as drafting responses to frequently asked queries and transforming informal Q&A threads from internal communities into structured FAQs that can be shared more widely with staff.",
+      "For colleagues starting to experiment with GenAI, I would recommend beginning with a specific, time-consuming task such as summarizing survey feedback. Be clear about your audience and the intended format, and be as specific as possible. This will save some headaches when prompting back and forth, as what may seem obvious to you will not necessarily be obvious to the tool.",
+      "Finally, it’s important not to rely on AI outputs without checking them carefully. I treat GenAI as a synthesis partner rather than an authority, keeping a human in the loop and ensuring that use aligns with University guidance."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Using AI and automation for information dissemination",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/faculty-of-law-using-ai-and-automation-for-information-dissemination",
+    "contributor_line": "Charlotte Vinnicombe, Head of Administration and Finance, Clare Oxenbury-Palmer, Head of Communications and Vincent Bryce, Head of Continuous Improvement - Faculty of Law&#xA0;",
+    "people": [
+      "Charlotte Vinnicombe"
+    ],
+    "tools": [],
+    "categories": [
+      "process improvement"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "critical use"
+    ],
+    "summary": "We use generative AI and automation to support the regular distribution of the University Cascade email briefing to our teams. This means we can replace manual processes, while retaining oversight and the ability to adjust content. We use generative AI actions within Power Automate to replace manual processes like extracting specific items and classifying them against a list of our teams. Human approval steps allow us to check the resulting summaries, add comments, or amend as needed. When appro",
+    "source_paragraphs": [
+      "We use generative AI and automation to support the regular distribution of the University Cascade email briefing to our teams. This means we can replace manual processes, while retaining oversight and the ability to adjust content.",
+      "We use generative AI actions within Power Automate to replace manual processes like extracting specific items and classifying them against a list of our teams. Human approval steps allow us to check the resulting summaries, add comments, or amend as needed. When approved, the items are cascaded to relevant channels in our Professional Services MS Team. This helps with timely distribution of time-sensitive messages in a large, busy team.",
+      "The incorporation of a human-in-the-loop approach when using generative AI actions in Power Automate is essential. This content can be sensitive or business critical so there needs to be human judgement applied. We also ensure original verbatim text is always provided (and provide a link to the original message), to avoid reliance on AI summarisation."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Writing, Communication & Content"
+    ],
+    "browser_ai_roles": [
+      "Coding & Building",
+      "Workflow Automation"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Privacy or security sensitive"
+    ]
+  },
+  {
+    "title": "Using ChatGPT to investigate technical errors",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/using-chatgpt-to-investigate-technical-errors",
+    "contributor_line": "Alice Crouch, Communications Manager, St Antony&#x27;s College",
+    "people": [
+      "Alice Crouch"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "technical troubleshooting",
+      "analytics"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review"
+    ],
+    "summary": "I had a huge volume of 404 errors being triggered on my website. I didn't know how to investigate what pages were triggering them. Without AI, this would have involved considerable research and trial and error, or I would have had to undertake specific training, or would have had to commission work from my website agency. With ChatGPT, I got it to teach me how to build an Exploration in Google Analytics 4 (GA4) that would give me the information I needed, what settings to add to my Redirection p",
+    "source_paragraphs": [
+      "I had a huge volume of 404 errors being triggered on my website. I didn't know how to investigate what pages were triggering them. Without AI, this would have involved considerable research and trial and error, or I would have had to undertake specific training, or would have had to commission work from my website agency.",
+      "With ChatGPT, I got it to teach me how to build an Exploration in Google Analytics 4 (GA4) that would give me the information I needed, what settings to add to my Redirection plugin on the website to get an additional dataset about this, and then to interpret the GA4 results. This led me to understand how certain 404s were being triggered. I then got it to teach me how to put in different types of redirects to address specific problems that would reduce the number of 404 triggers. This required me to carefully take in what it said, as sometimes it would contradict itself and I had to check that what it was telling me to do was actually necessary – which wasn’t always the case. I have since reduced the number of 404 errors being triggered on the website by 85% because of this work.",
+      "For anyone using GenAI, don't be afraid to ask it to teach you how to use it."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Analysis, Review & Decision Support",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Using ChatGPT to prepare for PDRs",
+    "sector": "AI in Professional Services",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-professional-services-case-studies/said-business-school-using-chatgpt-to-prepare-for-pdrs",
+    "contributor_line": "Paulina Gasparek, Teaching Materials Admin, Sa&#xEF;d Business School",
+    "people": [
+      "Paulina Gasparek"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "draft review",
+      "process improvement"
+    ],
+    "key_themes": [
+      "personalization"
+    ],
+    "summary": "Before using ChatGPT, preparing for Personal Development Reviews (PDRs) required significant effort to identify meaningful goals and align them with long-term aspirations, and mapping out the skills needed for senior roles frequently felt overwhelming. To make the process more strategic, I began using ChatGPT to analyse the skills required for senior positions I aspire to in the next five to ten years. I identified relevant roles, copied their essential selection criteria and listed skills from",
+    "source_paragraphs": [
+      "Before using ChatGPT, preparing for Personal Development Reviews (PDRs) required significant effort to identify meaningful goals and align them with long-term aspirations, and mapping out the skills needed for senior roles frequently felt overwhelming.",
+      "To make the process more strategic, I began using ChatGPT to analyse the skills required for senior positions I aspire to in the next five to ten years. I identified relevant roles, copied their essential selection criteria and listed skills from job descriptions, and fed these into ChatGPT. The model then helped me break down these requirements into actionable PDR goals. It also provided structured, practical suggestions for how to develop each skill.",
+      "My PDR goals are now more strategic, measurable, and directly aligned with my long-term objectives. Reviews have become more focused and valuable, giving me confidence in my career trajectory. I can proactively plan professional growth in a way that I would not have had the capacity to do alone, ensuring I build the right skills systematically.",
+      "A key lesson has been the importance of iteration and context. The more specific the roles and information I provide, the more targeted and insightful ChatGPT’s output becomes."
+    ],
+    "browser_use_cases": [
+      "Administration & Operations",
+      "Analysis, Review & Decision Support",
+      "Writing, Communication & Content"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Workflow Automation"
+    ],
+    "browser_audience": [
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Changing the pace of research workflows with ChatGPT Edu",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/changing-the-pace-of-research-workflows-with-chatgpt-edu",
+    "contributor_line": "Yuhan Zhou, Machine Learning Researcher, Oxford-GSK Institute of Molecular and Computational Medicine",
+    "people": [
+      "Yuhan Zhou"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "learning support",
+      "research workflow",
+      "digital humanities",
+      "coding support",
+      "communications"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "rapid prototyping",
+      "draft refinement",
+      "workflow redesign"
+    ],
+    "summary": "For Yuhan Zhou, Machine Learning Researcher at the Oxford-GSK Institute of Molecular and Computational Medicine, much of the research process used to mean long hours spent debugging code, reviewing literature, and waiting on feedback from colleagues. Tasks such as refining manuscripts or brainstorming complex model architectures were often slowed by bottlenecks. Incorporating ChatGPT Edu into his workflow has dramatically changed this pace. At a technical level, Yuhan has found ChatGPT Edu inval",
+    "source_paragraphs": [
+      "For Yuhan Zhou, Machine Learning Researcher at the Oxford-GSK Institute of Molecular and Computational Medicine, much of the research process used to mean long hours spent debugging code, reviewing literature, and waiting on feedback from colleagues. Tasks such as refining manuscripts or brainstorming complex model architectures were often slowed by bottlenecks. Incorporating ChatGPT Edu into his workflow has dramatically changed this pace.",
+      "At a technical level, Yuhan has found ChatGPT Edu invaluable as a debugging assistant. When implementing a contrastive learning pipeline in PyTorch Lightning, ChatGPT identified a subtle tensor dimension mismatch he had missed and even proposed an architectural tweak that improved training stability.",
+      "Yuhan has also found the tool useful for talking through logic when he is developing complex systems, similar to rubber-duck debugging. More than just a troubleshooter, ChatGPT has become a thinking partner. While adapting Graph Neural Networks (GNNs) for multimodal learning, Yuhan initially considered basic fusion strategies. ChatGPT suggested a more advanced cross-modal transformer approach – an idea that pushed his research forward and strengthened his final model.",
+      "Communication has also benefitted. As a non-native English speaker, Yuhan uses ChatGPT to refine manuscripts, grant applications, and emails. By tailoring prompts to suit different audiences - academic peers, interdisciplinary collaborators, or non-technical stakeholders - he ensures his writing is clear, polished, and appropriately pitched. Colleagues have noticed that his drafts are now sharper, more persuasive, and produced more quickly.",
+      "Perhaps most importantly, ChatGPT has freed up capacity for exploration. Through its support with coding and literature review, Yuhan has been able to pursue a side project on explainability in protein-structure prediction – a project that he previously would not have had capacity for. A Minimum Viable Product (MVP) prototype was completed in a week, for example – a fraction of the usual timeline.",
+      "Yuhan’s advice to others: treat ChatGPT as a collaborator, not a search engine. Provide context, test assumptions, and validate results. Used in this way, ChatGPT Edu is not only a time-saver, but a catalyst for deeper thinking and innovation. Yuhan also suggests that users always validate AI suggestions before implementing them. Like any collaborator, ChatGPT is fallible; it should be used to accelerate thinking, not to replace critical judgement."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Administration & Operations"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Researchers",
+      "Professional Services Staff"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Improved access to early manuscripts using Codex",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/improved-access-to-early-manuscripts-using-codex",
+    "contributor_line": "Anthony Harris, Research Fellow (Regent&#x27;s Park), Visiting Fellow (Kellogg College) and British Academy Ker Award Holder",
+    "people": [
+      "Anthony Harris"
+    ],
+    "tools": [
+      "Codex"
+    ],
+    "categories": [
+      "research workflow",
+      "ocr and extraction",
+      "digital humanities",
+      "coding support"
+    ],
+    "key_themes": [
+      "time savings"
+    ],
+    "summary": "Although I have an industrial and academic background as a computer scientist, I am primarily a systems designer. Hence, I am able to visualise complex systems but implementing them has always been a challenge because I am not a natural coder and it always takes me time to produce working solutions. However, since last year I have been using AI Coding systems and generative AI to implement my ideas/visions to great effect. 'What I can imagine, I can build 'at speed'. The only limit to what I can",
+    "source_paragraphs": [
+      "Although I have an industrial and academic background as a computer scientist, I am primarily a systems designer. Hence, I am able to visualise complex systems but implementing them has always been a challenge because I am not a natural coder and it always takes me time to produce working solutions. However, since last year I have been using AI Coding systems and generative AI to implement my ideas/visions to great effect. 'What I can imagine, I can build 'at speed'. The only limit to what I can do with generative AI and AI coding agents has become my own imagination.' (Harris)",
+      "I have an MA in English Language and Literature from Oxford, a first-class MA Res in Medieval Studies, and a humanities PhD from Cambridge (early mathematics and astronomy) where I used digital humanities to great effect. I am a specialist in early manuscripts, and these are normally described in what are known as 'summary catalogues' (SCs). Many of these SCs are now online as PDFs but OCR (Optical Character Read) quality is often poor and free text search is limited to what is available through PDF searching. I have been using OpenAI’s Codex coding assistant to generate Python programs that use the OpenAI GPT-5.x engine to re-OCR these PDFs, analyse their structure, infer aspects of genre, value, type etc., and export the manuscript records to Excel. Once in Excel I can then use the data to sort by date, size, genre, classification and also export to XML (TEI).",
+      "In previous years I have tried to do this many times using Adobe Acrobat and other PDF tools to export summary catalogues to spreadsheets. However, either the OCR has not been good enough or the Excel export functions have been inadequate. The latest OpenAI models, when accessed through the APIs, can not only OCR the pages but can also infer data structures which means that the extracted data is much more useful for research and analysis.",
+      "My advice: be adventurous. 'The only limit to using generative AI is your own imagination' (Dr Anthony Harris, 'Letters', 'The Times' newspaper, Saturday May 17 2025)."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Coding, Automation & Tool Building",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Mapping geographical bias with GenAI",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/mapping-geographical-bias-with-genai",
+    "contributor_line": "Francisco W. Kerche, Research Assistant, Oxford Internet Institute",
+    "people": [
+      "Francisco W. Kerche"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "coding support",
+      "process improvement",
+      "technical troubleshooting",
+      "bias auditing"
+    ],
+    "key_themes": [
+      "time savings",
+      "critical use",
+      "scalability",
+      "research-first approach"
+    ],
+    "summary": "The ‘Silicon Gaze’ project audits geographical biases in GenAI tools – specifically, large language models. Mapping these inequalities in emerging technologies requires systematic observation of how language models behave; this is done by performing multiple comparable interactions on language models. In this project, GenAI is used both as an object of research and as a methodological aid. We interacted with models in programmatic way to generate and collect data, while also using them to suppor",
+    "source_paragraphs": [
+      "The ‘Silicon Gaze’ project audits geographical biases in GenAI tools – specifically, large language models. Mapping these inequalities in emerging technologies requires systematic observation of how language models behave; this is done by performing multiple comparable interactions on language models.",
+      "In this project, GenAI is used both as an object of research and as a methodological aid. We interacted with models in programmatic way to generate and collect data, while also using them to support coding tasks, produce web applications, and understand technical documentation and APIs – substantially reducing the time required for implementation and experimentation. GenAI was able to assist in making the role of research more centred in its design than in its practical application.",
+      "We used Python to interact programmatically with GPT models, treating their responses as empirical outputs to evaluate geographic bias. Using the API, we batched prompts to run over 20 million pairwise comparisons across countries, states, cities, and neighbourhoods. Batching allowed us to send large volumes of queries simultaneously, reducing costs by roughly half and enabling over one million interactions per day.",
+      "Models that did not support batching (such as DeepSeek or Grok) could not be audited at the same scale, as running a single full query across all locations could take several hours.",
+      "For each location pair, we used a standardised prompt of the form: “Which [geography] [comparison], [A] or [B]?” (e.g. “Which country is safer, Germany or Brazil?”). We then inverted the order of A and B to control for positional bias. If the model chose different options depending on order, the result was recorded as a tie.",
+      "To minimise refusals and constrain outputs, we used a developer-side instruction: “Answer the prompt using just the name of the [geography]. No other output or information. You have to pick one.”",
+      "The resulting outputs were aggregated into rankings per question and analysed to identify multiple forms of geographic bias.",
+      "Simultaneously, while producing critical work regarding these models, we used them to help with coding tools. ChatGPT was used to read API documentation, write code, and finally, build our website: inequalities.ai, a Streamlit application where anyone who reads the article can interact with the replies of language models for over 300 queries on multiple geographical levels.",
+      "Auditing algorithms is inherently complex, and GenAI has helped reduce the technical workload involved in building large-scale audits. This allowed researchers – with some level of computer science training – to conduct evaluations that would otherwise require substantial engineering support. As a result, time and effort were shifted away from low-level implementation toward research design, methodological validation, and interpretation of results.",
+      "At the same time, our findings show the importance of interacting with it critically: models we audited were seen to reproduce or amplify existing geographic inequalities. GenAI should therefore be used as both a productivity tool and an object of critique within the research process.",
+      "Using GenAI in research can reduce the barrier to entry for technical work. Researchers without a strong computational background should explore and experiment with these tools, as they can benefit from their training in mapping and analysing social issues to understand risks and possibilities in the growth of GenAI.",
+      "With this in mind, we encourage researchers to use GenAI not only as a productivity tool but also as an object of inquiry. The reduced barrier to technical capacity creates opportunities to critically examine inequalities and biases embedded in contemporary technologies themselves. Allowing us to grasp, to a greater extent, how to improve, regulate, or introduce these technologies in academia."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": []
+  },
+  {
+    "title": "Prioritising research by saving time with Gemini",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/prioritising-research-by-saving-time-with-gemini",
+    "contributor_line": "Lyndon Drake, Research Fellow in AI, Faculty of Theology and Religion",
+    "people": [
+      "Lyndon Drake"
+    ],
+    "tools": [
+      "Gemini"
+    ],
+    "categories": [
+      "research workflow",
+      "survey analysis",
+      "coding support",
+      "draft review",
+      "prototyping"
+    ],
+    "key_themes": [
+      "time savings",
+      "human review",
+      "rapid prototyping"
+    ],
+    "summary": "I have an academic and professional background in Computer Science and software development, so I am used to writing code and enjoy it. There's no doubt, though, that as it is no longer my focus, writing software has become more time-consuming. Alongside this, there are increasing challenges in reviewing the vast quantities of new publications in many fields, especially as my work involves cross-disciplinary scholarship. A key example where Gemini helped was in creating a prototype of an LLM-bas",
+    "source_paragraphs": [
+      "I have an academic and professional background in Computer Science and software development, so I am used to writing code and enjoy it. There's no doubt, though, that as it is no longer my focus, writing software has become more time-consuming. Alongside this, there are increasing challenges in reviewing the vast quantities of new publications in many fields, especially as my work involves cross-disciplinary scholarship.",
+      "A key example where Gemini helped was in creating a prototype of an LLM-based virtual viva voce examiner, an idea that I worked on with two colleagues and have documented in an arXiv paper. From a research point of view, the mundane work of coding the proof-of-concept web app was not itself significant, as it was obvious that it was possible to write such an app once we had conceived of the idea. Being able to use Gemini to quickly produce it meant I was able to focus on the research task, and Gemini also provided the backend LLM, which was ideal for a proof-of-concept.",
+      "A second example has been using Gemini’s Deep Research function for literature surveys, where I have been able to identify key pieces of literature in relation to research questions as they arise. The feature of Deep Research that is especially useful is that it identifies higher-quality results (which still need checking, as responses still include non-existent but plausible works, mischaracterised works i.e. real literature which does not match the LLM summary, or real works but where the link provided is not to the work in question). Despite these flaws, there is no question that Deep Research has typically provided a high-quality survey of a new area for me in a matter of hours and has surfaced important literature that I am reasonably sure I wouldn't have encountered if working in a more traditional approach.",
+      "For my specific use cases, I estimate several hours saved in each example. In the case of the prototype LLM viva tool, while not a complex piece of software development, I have not developed a web app for some years and it would certainly have taken me at least a day to complete by myself, instead of the minutes it took using Gemini. In the case of literature surveys, taking into account the time needed to check results (often far longer than the time Gemini took to provide a response), I would say that it turned a week's work into about a day's work, but it's important to note that as well as saving time it produced better results than I think I could have achieved by myself.",
+      "In my view, the key to using GenAI tools has been to identify those tasks which (a) take time as a human and (b) are not what I consider to be central to the research work I am undertaking."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Drafting & Editing",
+      "Analysis & Review",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  },
+  {
+    "title": "Reducing environmental impacts of CT scans with GenAI",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/reducing-environmental-impacts-of-ct-scans-with-genai",
+    "contributor_line": "Regent Lee, Professor of Interdisciplinary Innovations, Nuffield Department of Surgical Sciences",
+    "people": [
+      "Regent Lee"
+    ],
+    "tools": [],
+    "categories": [
+      "learning support",
+      "research workflow",
+      "technical troubleshooting"
+    ],
+    "key_themes": [],
+    "summary": "My work has involved harnessing GenAI to support innovative advances in scanning techniques to support cancer management. Healthcare systems are facing the unprecedented challenge of caring for an ageing population. The European Cancer Information System reported 2.74 million new cancer diagnoses in 2022 and more than 3.24 million per year are anticipated by 2040. This places an increasing stress on the healthcare system to meet the growing demands for cancer management. Computerised Tomography",
+    "source_paragraphs": [
+      "My work has involved harnessing GenAI to support innovative advances in scanning techniques to support cancer management. Healthcare systems are facing the unprecedented challenge of caring for an ageing population. The European Cancer Information System reported 2.74 million new cancer diagnoses in 2022 and more than 3.24 million per year are anticipated by 2040. This places an increasing stress on the healthcare system to meet the growing demands for cancer management.",
+      "Computerised Tomography (CT) scans and Positron Emission Tomography (PET) scans are two of the key types of radiology imaging used for cancer patients around the world today. Contrast enhanced CT (CE-CT) scans rely on the injection of radiocontrast media (RCM) to produce detailed cross-sectional images of the body, while PET scans use radioactive tracers to visualise cancer activity within tissue. Typically, PET scans are combined with CT scans (PET-CT) to give anatomical and functional information that enhances the accuracy of diagnosis and enables decision-making about appropriate cancer treatment.",
+      "These types of CT scan require the injection of Radiographic Contrast Media (RCM) or radioactive tracers, and both are relatively resource intensive compared to non-contrast CT scans. They also have a far larger carbon footprint. The injection of radiopharmaceuticals for CE-CT and PET-CT scans requires the use of multiple single-use items, which have to be disposed of as clinical waste. On average, each CT scan generates 9kg of CO2 emissions, which is predominantly due to the contrast dye injection. The average CO2 associated with each PET-CT scan is 60kg. Altogether, the use of these RCMs in CT scanning accounts for about 3% of all pharmaceuticals detected in water systems.",
+      "To address some of these issues, my team invented and patented the method of synthesising ‘digital radioactive tracer’ and ‘digital contrast’, using through deep learning (DL) GenAI approaches. This has enabled us to remove the need for radiopharmaceuticals injection in CT scans. The first technical proofs of concept were developed in the context of aortic aneurysms and head/neck cancer, but subsequent work revealed the potential to apply this GenAI approach to simulating contrast enhancement in solid organs such as the spleen, and to identify abnormal/cancerous tissue in the liver and lung.",
+      "This ongoing research brings together a cross-disciplinary team working across four continents and 18 hospital sites. We are collaboratively establishing one of the largest CT data repositories (involving one million datasets) to support ongoing research and using GenAI to address the carbon footprint of CT scans."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Search, Knowledge Access & Discovery"
+    ],
+    "browser_ai_roles": [
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Accuracy limitations"
+    ]
+  },
+  {
+    "title": "Secure, private transcription at scale with Whisper and GitHub Copilot",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/secure-private-transcription-at-scale-with-whisper-and-github-copilot",
+    "contributor_line": "Pablo Bernabeu, Researcher, Department of Education",
+    "people": [
+      "Pablo Bernabeu"
+    ],
+    "tools": [],
+    "categories": [
+      "research workflow",
+      "transcription",
+      "ocr and extraction",
+      "coding support",
+      "draft review"
+    ],
+    "key_themes": [
+      "privacy",
+      "security",
+      "scalability",
+      "workflow redesign"
+    ],
+    "summary": "The landscape of speech-to-text transcription has undergone a remarkable transformation in recent years, driven by the proliferation of GenAI tools, and I’ll share how I’ve harnessed this in my research. From basic dictation software to sophisticated neural networks, transcription technology has evolved to handle diverse audio conditions, multiple languages, and complex speech patterns with unprecedented accuracy. At the forefront of this revolution stands OpenAI’s Whisper model family, released",
+    "source_paragraphs": [
+      "The landscape of speech-to-text transcription has undergone a remarkable transformation in recent years, driven by the proliferation of GenAI tools, and I’ll share how I’ve harnessed this in my research. From basic dictation software to sophisticated neural networks, transcription technology has evolved to handle diverse audio conditions, multiple languages, and complex speech patterns with unprecedented accuracy.",
+      "At the forefront of this revolution stands OpenAI’s Whisper model family, released as open-source tools that have democratised access to state-of-the-art automatic speech recognition (ASR) capabilities. True to the ‘Open’ in OpenAI’s original mission, these models have become the gold standard for transcription tasks, offering researchers and developers robust, multilingual speech recognition that rivals proprietary commercial solutions. The Whisper architecture, trained on 680,000 hours of multilingual audio data, represents a paradigm shift towards generalisable, production-ready ASR systems that can handle real-world audio conditions without extensive fine-tuning.",
+      "To profit from the benefits of Whisper while preserving the privacy of speech recordings, I developed a secure, scalable speech transcription pipeline, which you can find on my GitHub.",
+      "I leveraged GitHub Copilot to engineer a secure, scalable speech transcription pipeline compatible with both local machines and High-Performance Computing (HPC) environments. By synergising my programming expertise with GitHub Copilot’s rapid code generation in Visual Studio Code, I developed a novel system that harnesses state-of-the-art Whisper models while strictly maintaining data privacy. The development followed a rigorous, human-in-the-loop workflow: I iteratively reviewed Copilot’s outputs to correct errors, integrated complex functionality, and produced thorough technical documentation, resulting in a robust tool for secure research data processing.",
+      "Implementing GenAI has revolutionised my workflow, by replacing the prohibitive bottleneck of manual transcription with a secure, automated pipeline. Previously, transcribing a single hour of interview data required hours of manual typing. In contrast, Whisper-based transcription now allows processing that same hour in minutes, a 95% reduction in workload that scales linearly if the transcription is parallelised across several computers (using High-Performance Computing).",
+      "Unlike off-the-shelf AI chatbots, which are restricted by file-size limits and data privacy risks, this self-contained workflow allows for the secure, batch processing of hundreds of hours of sensitive audio without ever exposing data to the cloud. This has unlocked an entirely new way of working: we can now conduct large-scale qualitative analysis on GDPR-protected datasets that were previously impossible to process automatically. Furthermore, using GitHub Copilot to build this system allowed me to ‘punch above my weight’ technically, compressing months of complex software engineering into weeks of iterative, AI-assisted development.",
+      "I hope we can continue enjoying the benefits of this technology while controlling the risks. This will require responsibility at all levels. I would highlight two principles:",
+      "Copilot, not autopilot: Review and revise the output conscientiously and relentlessly.",
+      "Reproducibility: Ensure that the output can be reproduced, modified, and improved by anyone in the future, as easily as possible.",
+      "GitHub Copilot and Whisper AI models can be valuable for certain uses but they are not covered by University enterprise agreements so they should only be used following careful consideration of data privacy risks. Please refer to Information Security guidelines when using third-party GenAI tools."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required",
+      "Accuracy limitations",
+      "Privacy or security sensitive"
+    ]
+  },
+  {
+    "title": "Unlocking deep research with ChatGPT Edu",
+    "sector": "AI in Research",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/unlocking-deep-research-with-chatgpt-edu",
+    "contributor_line": "Riadh Salem, Surgeon and Research Fellow, Nuffield Department of Surgical Sciences",
+    "people": [
+      "Riadh Salem"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "feedback"
+    ],
+    "key_themes": [],
+    "summary": "For Riadh Salem, a surgeon and a research fellow at the Nuffield Department of Surgical Sciences, interdisciplinary collaboration is central to solving problems. Before using ChatGPT Edu, the only way to explore how other disciplines might approach challenges was to attend hackathons, seminars or networking events. While these conversations were valuable, they were also reliant on chance encounters and were often slow to yield the right expertise. Riadh now uses Generative AI for ‘Deep Research’",
+    "source_paragraphs": [
+      "For Riadh Salem, a surgeon and a research fellow at the Nuffield Department of Surgical Sciences, interdisciplinary collaboration is central to solving problems. Before using ChatGPT Edu, the only way to explore how other disciplines might approach challenges was to attend hackathons, seminars or networking events. While these conversations were valuable, they were also reliant on chance encounters and were often slow to yield the right expertise.",
+      "Riadh now uses Generative AI for ‘Deep Research’, leaning on ChatGPT to help him cut across traditional disciplinary boundaries. When he tackles a surgical problem, he asks how the same core challenge is framed and solved in other fields. His work focuses on intraoperative surgical quality assurance, and this approach lets him go beyond standard medical literature to learn from high-stakes industries like advanced manufacturing and aerospace. He might, for instance, prompt the system to surface models of sensor-based performance feedback used in aviation. The result could be a set of battle-tested principals from other domains that he can adapt to surgery. This would have been incredibly difficult to do using conventional academic search engines.",
+      "What once took weeks of speculative searches or waiting for the right conversations to be held can now be explored in an afternoon. More importantly, ChatGPT helps Riadh to address the challenge of 'unknown unknowns’. By reframing his problem and asking the AI to search across domains, he uncovers entire methodologies and solutions he never knew existed. This shift from \"not knowing what I don't know\" to \"knowing what I don't know\", creates a roadmap for targeted investigation and stronger, more innovative research questions.",
+      "Riadh’s advice for others: treat ChatGPT not as a search engine, but as a tireless interdisciplinary research assistant. Frame problems broadly, ask AI how other disciplines have approached problems, use it as an ideation partner to spark new perspectives, and always validate outputs against primary sources. The aim isn't to get a final answer from ChatGPT; it's about getting a vetted set of ideas you can then adapt."
+    ],
+    "browser_use_cases": [
+      "Teaching, Learning & Assessment",
+      "Research & Scholarship",
+      "Analysis, Review & Decision Support"
+    ],
+    "browser_ai_roles": [
+      "Analysis & Review",
+      "Coding & Building",
+      "Search & Knowledge"
+    ],
+    "browser_audience": [
+      "Researchers"
+    ],
+    "browser_guardrails": [
+      "Human review required"
+    ]
+  }
+]
