@@ -9,6 +9,17 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background: white;
       box-sizing: border-box;
+      
+      display: block;
+      width: 100vw;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      overflow: visible;
     }
 
     .course-browser-widget *,
@@ -18,8 +29,9 @@
     }
 
     .course-browser-widget .container {
-      max-width: 100%;
-      margin: 0 auto;
+      width: 100%;
+      max-width: none;
+      margin: 0;
       background: white;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -35,12 +47,16 @@
       font-size: 1.6em;
       margin: 0 0 5px;
       font-weight: 600;
+      color: white;
+      font-style: normal;
     }
 
     .course-browser-widget .header p {
       font-size: 0.9em;
       opacity: 0.9;
       margin: 0;
+      color: white;
+      text-align: center;
     }
 
     .course-browser-widget .main-content {
@@ -336,6 +352,7 @@
       margin-bottom: 10px;
       font-weight: 600;
       padding-right: 40px;
+      font-style: normal;
     }
 
     .course-browser-widget .course-summary {
