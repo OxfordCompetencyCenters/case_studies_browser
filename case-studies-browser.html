@@ -551,10 +551,12 @@
     </div>
   </div>
 
-  <script src="./case-study-summaries/case-studies-data.js"></script>
   <script>
+    // Case study data is synced server-side by GitHub Actions and served as a static JSON file.
+    const CACHE_JSON_URL = "https://oxfordcompetencycenters.github.io/case_studies_browser/case_studies_cache.json";
+    const CACHE_KEY = "caseStudiesBrowserCache";
     const SOURCE_URL = "https://oerc.ox.ac.uk/ai-centre/projects/case-studies";
-    const RAW_CASE_STUDIES = Array.isArray(window.CASE_STUDIES_DATA) ? window.CASE_STUDIES_DATA : [];
+    let RAW_CASE_STUDIES = [];
     const HIDDEN_TOOLS = new Set([
       "ElevenLabs",
       "Whisper",
@@ -597,11 +599,11 @@
       return [...new Set((roles || []).map(normalizeRoleName).filter(Boolean))];
     }
 
-    const caseStudies = RAW_CASE_STUDIES.map((item) => ({
-      ...item,
-      tools: normalizeTools(item.tools || []),
-      browser_ai_roles: normalizeRoles(item.browser_ai_roles || [])
-    }));
+    let caseStudies = [];
+    let allSectors = [];
+    let allUseCases = [];
+    let allTools = [];
+    let allRoles = [];
 
     const state = {
       query: "",
@@ -614,10 +616,78 @@
       sidebarCollapsed: false
     };
 
-    const allSectors = [...new Set(caseStudies.map((item) => item.sector))].sort();
-    const allUseCases = [...new Set(caseStudies.flatMap((item) => item.browser_use_cases || []))].sort();
-    const allTools = [...new Set(caseStudies.flatMap((item) => item.tools || []))].sort();
-    const allRoles = [...new Set(caseStudies.flatMap((item) => item.browser_ai_roles || []))].sort();
+    function initData(data) {
+      RAW_CASE_STUDIES = data;
+      caseStudies = RAW_CASE_STUDIES.map((item) => ({
+        ...item,
+        tools: normalizeTools(item.tools || []),
+        browser_ai_roles: normalizeRoles(item.browser_ai_roles || [])
+      }));
+      allSectors = [...new Set(caseStudies.map((item) => item.sector))].sort();
+      allUseCases = [...new Set(caseStudies.flatMap((item) => item.browser_use_cases || []))].sort();
+      allTools = [...new Set(caseStudies.flatMap((item) => item.tools || []))].sort();
+      allRoles = [...new Set(caseStudies.flatMap((item) => item.browser_ai_roles || []))].sort();
+    }
+
+    function saveCache(data, serverTimestamp) {
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ last_updated: serverTimestamp || new Date().toISOString(), case_studies: data }));
+      } catch (e) {}
+    }
+
+    function loadFromCache() {
+      try {
+        var raw = localStorage.getItem(CACHE_KEY);
+        if (!raw) return null;
+        return JSON.parse(raw);
+      } catch (e) { return null; }
+    }
+
+    async function loadCaseStudies() {
+      // Step 1: Render from localStorage instantly if available
+      var cached = loadFromCache();
+      if (cached && cached.case_studies && cached.case_studies.length > 0) {
+        console.log("[CaseStudies] Rendering from localStorage (" + cached.case_studies.length + " studies)");
+        initData(cached.case_studies);
+        render();
+      }
+
+      // Step 2: Fetch server JSON
+      console.log("[CaseStudies] Fetching case_studies_cache.json...");
+      try {
+        var response = await fetch(CACHE_JSON_URL + "?t=" + Date.now());
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        var data = await response.json();
+        var studies = data.case_studies || [];
+        if (!studies.length) throw new Error("No case studies in JSON");
+
+        var localCache = loadFromCache();
+        if (localCache && localCache.last_updated === data.last_updated) {
+          console.log("[CaseStudies] Server JSON matches localStorage — no update needed");
+          if (!caseStudies.length) { initData(studies); render(); }
+          return;
+        }
+
+        console.log("[CaseStudies] Loaded " + studies.length + " case studies from server");
+        initData(studies);
+        saveCache(studies, data.last_updated);
+        render();
+      } catch (e) {
+        console.error("[CaseStudies] Failed to fetch:", e.message || e);
+        if (!caseStudies.length) {
+          document.getElementById("studies-container").innerHTML =
+            '<div class="no-results"><h2>Could not load case studies</h2><p>Please try refreshing the page.</p></div>';
+        }
+      }
+    }
+
+    // Console-callable function to force re-fetch from server
+    window.triggerSync = function() {
+      console.log("[CaseStudies] triggerSync() — clearing cache and re-fetching...");
+      try { localStorage.removeItem(CACHE_KEY); } catch (e) {}
+      caseStudies = [];
+      loadCaseStudies();
+    };
 
     const sidebarEl = document.getElementById("filter-sidebar");
     const collapseBtnEl = document.getElementById("collapse-filters-btn");
@@ -807,7 +877,7 @@
     });
 
     setTab("all");
-    render();
+    loadCaseStudies();
   </script>
 </body>
 </html>
