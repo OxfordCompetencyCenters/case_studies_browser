@@ -42,6 +42,14 @@ This digest summarizes every individual case study page discovered from the thre
 - Key themes: `time savings`, `critical use`, `draft refinement`
 - Summary: The ‘AI-Driven Feedback Loops for Student Evaluation’ project, led by the Nuffield Department of Primary Care Health Sciences, set out to explore whether AI could help streamline and standardise feedback processes across its postgraduate courses. Prior to this project, each new programme in the department had been implementing its own feedback processes, meaning that there was no consistent administrative approach to collecting, analysing and responding to student feedback. Over six months, the
 
+### AI, Decoloniality and Creative Poetry Translation
+- URL: `https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-decoloniality-and-creative-poetry-translation`
+- Contributor: Matthew Reynolds, Professor of English and Comparative Criticism, Faculty of English and St Anne&#x27;s College
+- Tools: `ChatGPT`
+- Categories: `research workflow`, `coding support`, `communications`, `process improvement`, `technical troubleshooting`
+- Key themes: `time savings`
+- Summary: The thrust of my research over the last several years has been to explore the relationship between language difference and literary creativity, showing that translation is not a humble adjunct to literature but rather a fundamental part of it. Languages are complex, varied, ever-changing and overlapping: once you realise this, you can see that translation is more complicated than achieving equivalence of meaning between separate systems. Translation involves creativity and negotiation: it can al
+
 ### AIID (Artificial Intelligence for Interdisciplinary Discussion)
 - URL: `https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/aiid-artificial-intelligence-for-interdisciplinary-discussion`
 - Tools: `None detected`
@@ -319,7 +327,8 @@ This digest summarizes every individual case study page discovered from the thre
 
 ## Counts
 
-- AI in Education: 19
+- AI in Education: 20
 - AI in Research: 7
 - AI in Professional Services: 14
-- Total: 40
+- Total: 41
+

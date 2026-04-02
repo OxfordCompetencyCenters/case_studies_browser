@@ -13,28 +13,28 @@ This is a smaller, browser-oriented facet set derived from the full case study c
 
 ## Use Cases
 
-- Administration & Operations: 27
-- Research & Scholarship: 26
+- Administration & Operations: 28
+- Research & Scholarship: 27
 - Teaching, Learning & Assessment: 26
-- Coding, Automation & Tool Building: 18
+- Coding, Automation & Tool Building: 19
 - Analysis, Review & Decision Support: 9
 - Search, Knowledge Access & Discovery: 7
 - Writing, Communication & Content: 5
 
 ## AI Roles
 
-- Coding & Building: 32
+- Coding & Building: 33
 - Analysis & Review: 30
-- Drafting & Editing: 19
-- Tutoring & Coaching: 17
+- Drafting & Editing: 20
+- Tutoring & Coaching: 18
 - Search & Knowledge: 16
 - Workflow Automation: 4
 
 ## Audience
 
-- Researchers: 25
+- Researchers: 26
+- Educators: 17
 - Professional Services Staff: 17
-- Educators: 16
 - Students: 16
 
 ## Guardrails

@@ -225,6 +225,53 @@ window.CASE_STUDIES_DATA = [
     ]
   },
   {
+    "title": "AI, Decoloniality and Creative Poetry Translation",
+    "sector": "AI in Education",
+    "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/ai-decoloniality-and-creative-poetry-translation",
+    "contributor_line": "Matthew Reynolds, Professor of English and Comparative Criticism, Faculty of English and St Anne&#x27;s College",
+    "people": [
+      "Matthew Reynolds"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "categories": [
+      "research workflow",
+      "coding support",
+      "communications",
+      "process improvement",
+      "technical troubleshooting"
+    ],
+    "key_themes": [
+      "time savings"
+    ],
+    "summary": "The thrust of my research over the last several years has been to explore the relationship between language difference and literary creativity, showing that translation is not a humble adjunct to literature but rather a fundamental part of it. Languages are complex, varied, ever-changing and overlapping: once you realise this, you can see that translation is more complicated than achieving equivalence of meaning between separate systems. Translation involves creativity and negotiation: it can al",
+    "source_paragraphs": [
+      "The thrust of my research over the last several years has been to explore the relationship between language difference and literary creativity, showing that translation is not a humble adjunct to literature but rather a fundamental part of it. Languages are complex, varied, ever-changing and overlapping: once you realise this, you can see that translation is more complicated than achieving equivalence of meaning between separate systems. Translation involves creativity and negotiation: it can always done again and done differently. I use the term ‘translationality’ to point to this inherent fluidity.",
+      "In my past work, I have shown how literary texts co-exist in multiple different translations. For instance, Charlotte Brontë’s Jane Eyre has been translated more than 600 times into nearly 70 languages: each one of those texts is an interestingly different imaginative realisation of the work, and the novel as a whole – as it actually exists in the world – consists of all these different versions together, a multilingual word-cloud that both registers and traverses cultural and historical difference. I call this pluralising phenomenon ‘prismatic translation’ (see 'Prismatic Jane Eyre' if you want to find out more about it!)",
+      "Much of the discourse around AI, by contrast, adopts a simplistic and misleading view of translation. All the particularly expressive resources of different languages are presented as ‘language barriers’ which need to be overcome so as to achieve something that can be described as ‘efficient communication’. This entails erasing the distinctiveness and cultural detail that matter to us as human individuals (and that are very evident in the many translations of Jane Eyre). However, Large Language Models are in fact able to register language variety with unprecedented specificity and nuance. The same capability that enables them to imitate your style in your emails also makes it possible for them to recognise and generate language in all sorts of dialects, idioms, historically-specific varieties, and styles.",
+      "The issue is complex because LLMs’ ability to do this depends on what is in their training data: there are significant problems of fairness and representation to be addressed here. So I set up a research project, supported by the John Fell-OUP Research Fund and the AI Competency Centre, to explore the potential of LLMs to engage in creative, ethically aware translation practices that recognise and value linguistic differences rather than erasing them. The project is called ‘AI, Decoloniality and Creative Poetry Translation’. The research group consists of Deepshikha Behera (Edinburgh); Vani Nautiyal (IIT Roorkee); Karen Cresci, Luciana Beroiz, María Eugenia Rigane (Mar del Plata); Wen-Chin Ouyang, Yingxin Chen, Rafaa Ragebi, Xuemeng Zhang (SOAS); Annmarie Drury (CUNY); Joseph Hankinson, Sarah Ekdawi, Mary Newman (Oxford), with AI advice from Ellie Pavlick (Brown), technical guidance from Dominik Lukes (AI Competency Centre) and coding by Raj Trivedi (U Madison, Wisconsin). We are working with these languages: Miya, Garhwali, Hindi, Rioplatense Spanish, Arabic, Chinese, Swahili, Portuguese, Greek, Spanish, and Italian.",
+      "We have found that by using carefully structured, complex prompts, and by uploading reference texts into the context window, we can get ChatGPT to translate in creative and varied ways – much more creative and varied than I can manage by myself. For instance, working with the poetry of a largely forgotten and never translated Armenian-Italian writer (1855-1910), I can explore how the poems can be translated into different dialects and kinds of language; I can investigate what they might have turned into if they had been translated by historically appropriate English poets like Christina G. Rossetti. T. S. Eliot or HD. This enables me (or anyone) to create, for any poem, story, or novel, the sort of prismatic translational afterlife that previously has been reserved for very popular or canonical texts like Jane Eyre.",
+      "This process has obvious educational potential. It makes visible the complexity and nuance of languages, and it makes you see that translation – or any kind of meaning-making – involves imagination and individuality. So, with guidance from Dominik Lukes and coding from Raj Trivedi, I have gone on to develop an app, Translalia, that will help people to engage in plural, creative, ethically aware translation practices. It is currently being trialled with translators, schools and other interested groups in the UK, India and Argentina.",
+      "My recommendation to other users would be to realise that GenAI doesn’t have to produce standardised kinds of language. You can interact with it in dialects, creoles or a mix of languages; and you can teach it unusual kinds of language by uploading texts into the context window for it to study. GenAI doesn’t have to be put to the service of ‘communicative efficiency’: it can also open up language variety for you to explore, adopt, learn from and enjoy."
+    ],
+    "browser_use_cases": [
+      "Research & Scholarship",
+      "Administration & Operations",
+      "Coding, Automation & Tool Building"
+    ],
+    "browser_ai_roles": [
+      "Tutoring & Coaching",
+      "Drafting & Editing",
+      "Coding & Building"
+    ],
+    "browser_audience": [
+      "Educators",
+      "Researchers"
+    ],
+    "browser_guardrails": []
+  },
+  {
     "title": "AIID (Artificial Intelligence for Interdisciplinary Discussion)",
     "sector": "AI in Education",
     "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/aiid-artificial-intelligence-for-interdisciplinary-discussion",
