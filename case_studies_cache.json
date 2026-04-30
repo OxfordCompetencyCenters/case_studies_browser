@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T03:26:36.277226+00:00",
+  "last_updated": "2026-04-30T03:26:34.217418+00:00",
   "source_url": "https://oerc.ox.ac.uk/ai-centre/projects/case-studies",
   "case_studies": [
     {
@@ -825,6 +825,69 @@
       ],
       "browser_guardrails": [
         "Human review required",
+        "Accuracy limitations"
+      ]
+    },
+    {
+      "title": "Using AI to Build a Question Generator for Biochemistry Learning",
+      "sector": "AI in Education",
+      "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-education-case-studies/using-ai-to-build-a-question-generator-for-biochemistry-learning",
+      "contributor_line": "Matt Rattley, Lecturer & Tutor, Department of Biochemistry",
+      "people": [
+        "Matt Rattley"
+      ],
+      "tools": [
+        "ChatGPT",
+        "Codex"
+      ],
+      "categories": [
+        "learning support",
+        "student support",
+        "coding support",
+        "feedback",
+        "prototyping"
+      ],
+      "key_themes": [
+        "time savings",
+        "rapid prototyping",
+        "workflow redesign"
+      ],
+      "summary": "In my subject area, as is often the case, students benefit from having a plethora of questions to practise their skills and build understanding. Producing those resources takes a significant amount of time and effort. However, particularly for problems which are not text-based, current AI tools can offer limited options for generating questions. Even for textual tasks, generative AI tools often need substantial guardrails, and can still breach them, such that an unsupervised student-facing tool",
+      "source_paragraphs": [
+        "In my subject area, as is often the case, students benefit from having a plethora of questions to practise their skills and build understanding. Producing those resources takes a significant amount of time and effort. However, particularly for problems which are not text-based, current AI tools can offer limited options for generating questions. Even for textual tasks, generative AI tools often need substantial guardrails, and can still breach them, such that an unsupervised student-facing tool for independent study might be considered risky and, for tutors, more work than simply writing questions yourself.",
+        "Instead, I have found AI can provide support one step earlier in that process, by helping to build a question generator. In this case, I used AI to build a student-facing tool that is not itself AI-based, but that generates new questions based on more traditional computational processes. The AI’s role here was in generating the code behind that tool and providing guidance to me, as a novice coder, on what was going on and how I might adjust things as needed in the future.",
+        "I used Codex to build a small, student-facing web applet that generates questions on a particular task describing the spatial arrangement of atoms in molecules. This task has a well-defined ruleset and workflow that AI tools already know, and I was able to describe in plain English what I wanted this applet to do. My first prompt included, at the end, “…before building, confirm that you understand what I need, show me your plan for what to include, and ask any questions you need to clarify anything”, to ensure that it did not get the wrong idea and build something entirely different.",
+        "After confirming its plan, it produced a prototype. Across the next 10 or so prompts to refine what it had made, it took shape to form a final prototype. These refining prompts, for my tool, included things like:",
+        "fixing some errors in how diagrams were represented, which was solved by providing an image of what I would like it to show;",
+        "addressing a complication in how some atom labels were being shown, which was solved by providing two versions of each label;",
+        "extending its capability to a wider range of molecular structures, which required a small rework in how information about each molecular fragment was stored.",
+        "I also asked it to explain the structure of aspects of its code, particularly where its bank of molecular fragments is stored and in what format. This has enabled me to add, remove, and change these without needing Codex to do it for me, even with a very rudimentary understanding of JavaScript. It also provided guidance on how to integrate this applet into my course’s Canvas LMS page.",
+        "The two major benefits of a tool like this are that:",
+        "it gives students a way to practise on essentially limitless examples of this type of question;",
+        "it removes the need for me to write and then mark all of those questions and answers.",
+        "It is a simple enough activity that the tool can provide basic feedback on whether answers are right or wrong, so students can revise this at their own pace and to whatever volume they feel they need. Because the examples are dynamically generated, there is also no risk that students “recall” answers from previous attempts, as they might if repeating questions on standard tutorial sheets. Each new molecule generated is a fresh example to test their skills. The time I might have spent writing out questions for this task and marking students’ answers can now be spent on writing and marking more sophisticated types of question, which AI tools are currently not in a position to reliably generate for students.",
+        "In particular, when using Codex as a non-coder:",
+        "it may feel intimidating to start. My suggestion is to begin with something very simple to get a feel for how it works;",
+        "it integrates with GitHub, which, to a non-coder, can feel even more intimidating. I am sure I am not using it to its full potential either. It is worth spending a little time understanding how it works, perhaps with guidance from tools such as ChatGPT as you go along;",
+        "the “show me your planning” part of that first prompt is very useful. Getting it to explain what it plans to do, and how, and to ask questions if things are unclear, will save time and headaches later;",
+        "try not to move the goalposts too much. It is worth spending time before even opening Codex to determine exactly what you want, and importantly, what you do not want. That way, you are more likely to arrive at a functional tool, rather than something poorly structured because the scope changed repeatedly;",
+        "test early and test often. It will make mistakes, so even with incomplete versions, see what it can do and where it is going wrong, and feed that information back so it can iterate and fix those problems before building further on a shaky foundation."
+      ],
+      "browser_use_cases": [
+        "Teaching, Learning & Assessment",
+        "Coding, Automation & Tool Building",
+        "Analysis, Review & Decision Support"
+      ],
+      "browser_ai_roles": [
+        "Tutoring & Coaching",
+        "Analysis & Review",
+        "Coding & Building"
+      ],
+      "browser_audience": [
+        "Students",
+        "Educators"
+      ],
+      "browser_guardrails": [
         "Accuracy limitations"
       ]
     },
