@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T03:26:54.297386+00:00",
+  "last_updated": "2026-05-02T03:26:00.012148+00:00",
   "source_url": "https://oerc.ox.ac.uk/ai-centre/projects/case-studies",
   "case_studies": [
     {
@@ -841,14 +841,15 @@
         "Codex"
       ],
       "categories": [
+        "teaching",
         "learning support",
         "student support",
         "coding support",
-        "feedback",
-        "prototyping"
+        "feedback"
       ],
       "key_themes": [
         "time savings",
+        "human review",
         "rapid prototyping",
         "workflow redesign"
       ],
@@ -871,7 +872,8 @@
         "it integrates with GitHub, which, to a non-coder, can feel even more intimidating. I am sure I am not using it to its full potential either. It is worth spending a little time understanding how it works, perhaps with guidance from tools such as ChatGPT as you go along;",
         "the “show me your planning” part of that first prompt is very useful. Getting it to explain what it plans to do, and how, and to ask questions if things are unclear, will save time and headaches later;",
         "try not to move the goalposts too much. It is worth spending time before even opening Codex to determine exactly what you want, and importantly, what you do not want. That way, you are more likely to arrive at a functional tool, rather than something poorly structured because the scope changed repeatedly;",
-        "test early and test often. It will make mistakes, so even with incomplete versions, see what it can do and where it is going wrong, and feed that information back so it can iterate and fix those problems before building further on a shaky foundation."
+        "test early and test often. It will make mistakes, so even with incomplete versions, see what it can do and where it is going wrong, and feed that information back so it can iterate and fix those problems before building further on a shaky foundation.",
+        "You can check out Matt's teaching tool for yourself below:"
       ],
       "browser_use_cases": [
         "Teaching, Learning & Assessment",
@@ -888,6 +890,7 @@
         "Educators"
       ],
       "browser_guardrails": [
+        "Human review required",
         "Accuracy limitations"
       ]
     },
