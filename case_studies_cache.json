@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T03:27:35.529740+00:00",
+  "last_updated": "2026-06-03T03:28:18.561957+00:00",
   "source_url": "https://oerc.ox.ac.uk/ai-centre/projects/case-studies",
   "case_studies": [
     {
@@ -1966,6 +1966,55 @@
         "Human review required",
         "Accuracy limitations",
         "Privacy or security sensitive"
+      ]
+    },
+    {
+      "title": "Transcription and Translation for Qualitative Research",
+      "sector": "AI in Research",
+      "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/transcription-and-translation-for-qualitative-research",
+      "contributor_line": "Ankita Sharma, DPhil Candidate, Nuffield Department of Women's and Reproductive Health",
+      "people": [
+        "Ankita Sharma"
+      ],
+      "tools": [
+        "ChatGPT",
+        "Gemini",
+        "NotebookLM"
+      ],
+      "categories": [
+        "research workflow",
+        "transcription",
+        "process improvement",
+        "audio processing"
+      ],
+      "key_themes": [
+        "time savings",
+        "human review"
+      ],
+      "summary": "Before GenAI, we were using an external vendor in India to transcribe and translate all the interviews. As I can speak Hindi (one of the languages requiring translation), I was checking the vendor’s translations. The vendor had been paraphrasing the interviews rather than translating them verbatim, and many times they got this particular dialect of Hindi completely wrong. Unfortunately, the back-and-forth process with the vendor took nearly six months before I could get 16 files completely trans",
+      "source_paragraphs": [
+        "Before GenAI, we were using an external vendor in India to transcribe and translate all the interviews. As I can speak Hindi (one of the languages requiring translation), I was checking the vendor’s translations. The vendor had been paraphrasing the interviews rather than translating them verbatim, and many times they got this particular dialect of Hindi completely wrong.",
+        "Unfortunately, the back-and-forth process with the vendor took nearly six months before I could get 16 files completely transcribed. There was no one else available in the team to check the translations and back-translate them, so I was spending hours doing this manually.",
+        "After I got access to Gemini through the University in October, I started using GenAI for transcription and translation. I was able to get high-quality transcripts within hours rather than months. I would use NotebookLM for transcription of large audio files. I then used the University's Gemini access to translate verbatim and format the transcripts.",
+        "I was also able to upload the vendor's transcription and compare both versions to create a final combined copy using Gemini. Instead of transcription and translation taking months, it now takes hours.",
+        "I also found NotebookLM helpful in taking a fresh look at my data. It acted as a sense-checking assistant.",
+        "My advice is not to just stick to ChatGPT. Create custom Gems and use NotebookLM to help organise your thoughts."
+      ],
+      "browser_use_cases": [
+        "Research & Scholarship",
+        "Administration & Operations",
+        "Writing, Communication & Content"
+      ],
+      "browser_ai_roles": [
+        "Drafting & Editing",
+        "Coding & Building",
+        "Search & Knowledge"
+      ],
+      "browser_audience": [
+        "Researchers"
+      ],
+      "browser_guardrails": [
+        "Human review required"
       ]
     },
     {
