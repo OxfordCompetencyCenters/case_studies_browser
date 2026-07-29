@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T03:24:56.547128+00:00",
+  "last_updated": "2026-07-29T03:25:03.893565+00:00",
   "source_url": "https://oerc.ox.ac.uk/ai-centre/projects/case-studies",
   "case_studies": [
     {
@@ -2015,6 +2015,74 @@
       ],
       "browser_guardrails": [
         "Human review required"
+      ]
+    },
+    {
+      "title": "Two new AI agents provide the FAIRsharing community tailored support and content discovery",
+      "sector": "AI in Research",
+      "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/two-new-ai-agents-provide-the-fairsharing-community-tailored-support-and-content-discovery",
+      "contributor_line": "",
+      "people": [],
+      "tools": [],
+      "categories": [
+        "research workflow",
+        "policy implementation",
+        "workflow improvement",
+        "technical troubleshooting"
+      ],
+      "key_themes": [
+        "time savings",
+        "scalability",
+        "personalization",
+        "workflow redesign",
+        "context-rich prompting"
+      ],
+      "summary": "In collaboration with the AI Competency Centre, the FAIRsharing Team has launched two new AI agents that provide tailored support for both record creation and sophisticated querying of the FAIRsharing registry. This conversational, context-aware layer complements our traditional search and discovery tools, enabling users to access its rich, interconnected knowledge in more intuitive and flexible ways while addressing the increasingly complex needs of our global community. One of the actions high",
+      "source_paragraphs": [
+        "In collaboration with the AI Competency Centre, the FAIRsharing Team has launched two new AI agents that provide tailored support for both record creation and sophisticated querying of the FAIRsharing registry. This conversational, context-aware layer complements our traditional search and discovery tools, enabling users to access its rich, interconnected knowledge in more intuitive and flexible ways while addressing the increasingly complex needs of our global community.",
+        "One of the actions highlighted in the UK DSIT AI for Science Strategy (20 November 2025) emphasises the need to “continue modernising research data policy and work with scientific communities to ensure that data generated through UKRI-funded research aligns with FAIR (Findable, Accessible, Interoperable, and Reusable) principles, and supports a modernised, AI-ready data landscape. This will include exploring the use of AI tools to support researchers in creating and optimising their data.” The FAIR Principles, of which two FAIRsharing team members are co-authors, describe both the qualities that data must possess and the behaviours that computational environments must exhibit to make data more discoverable and reusable by machines. Over the past decade, FAIR has been widely endorsed by funders, institutions, and scholarly publishers, and substantial investments have been made in methods for data FAIRification and in tools for FAIR orchestration. The emergence of AI now introduces a powerful reciprocal relationship: FAIR data enhances the performance and reliability of AI systems, while increasingly capable AI can automate and accelerate the activities required to make data FAIR.",
+        "We wanted to develop AI assistants that support a range of stakeholders (e.g., researchers, data stewards, and policy makers) in registering, exploring, identifying, and selecting the right community standards and repositories. These two pillars of the FAIR Principles are essential for turning FAIR into action and for generating trustworthy recommendations. We were looking for custom chatbots that could adjust to users’ interaction styles, providing an intuitive, conversational way to navigate the information we have about the complex metadata structures within our registries and surface tailored recommendations about how they can search and create content. FAIRsharing plays a central role both within the University and within the global research infrastructure ecosystem. Developed in Oxford and hosted within the Department of Engineering Science, FAIRsharing is an internationally recognised, production-level resource embedded across multiple components of the European Open Science Cloud (EOSC) and formally adopted as an output of the Research Data Alliance (RDA). At the local level, FAIRsharing is a key contributor to the University’s Research Practice Subcommittee’s programme of funded interventions, which includes strengthening institutional compliance with the FAIR Principles.",
+        "Prior to this collaboration, FAIRsharing team members participated in a range of events, courses, and discussions organised by the AI Competency Centre to explore how AI could enhance FAIRsharing. Our first approach was to build a custom agent that translated users' natural-language queries into GraphQL requests. This approach was not successful due to the need for a large controlled vocabulary, the variety of possible query fields and the capacity of the agent to cope with large json formatted replies. This early work demonstrated the need for a different approach; we needed expert assistance to discover what methodology was best and what functionality would be possible.",
+        "The work was led by Alok Kumar Sahu, Senior Research Software Engineer at the AI Competency Centre, who served as lead developer for both chatbots. His work built on initial prototyping by AI Competency Centre colleague Dominik Lukes, which demonstrated the ability of LLMs to reason over FAIRsharing's structured content. However, the scale and complexity of the FAIRsharing registry, together with the need for precise querying over highly interlinked metadata, required a much deeper engineering effort, resulting in Alok creating the two production systems described below.",
+        "Both chatbots were developed according to a common set of design principles. Both were built to be model-agnostic, so that FAIRsharing can plug in any underlying LLM without re-architecting the system. The two chatbots were intentionally developed as separate systems, each with its own knowledge base. Registry queries often involve complex relational reasoning over FAIRsharing's interconnected metadata, whereas documentation queries typically require retrieval from a comparatively static knowledge base. Combining these into a single system would increase the risk of semantically similar but operationally different questions (e.g., \"suggest the best database for my use case\") being routed to the wrong workflow, reducing response quality, increasing latency, and incurring unnecessary computational cost. Maintaining two specialised chatbots preserves a clear separation of concerns: one answers questions about the content of FAIRsharing, while the other explains how to use FAIRsharing.",
+        "For FAIRsharing, the key principles for AI tools are:",
+        "Be truthful: Responses must never hallucinate or extrapolate; information must come only from approved sources.",
+        "Be focused: Guardrails must ensure the chatbot remains within the FAIRsharing domain.",
+        "Be complete: Responses should draw on the full breadth of the FAIRsharing knowledge base and explicitly indicate when only a partial answer is possible.",
+        "Be clear: References to FAIRsharing content should always include links to that underlying content.",
+        "This collaboration has resulted in two complementary AI assistants that support both FAIRsharing users and FAIRsharing curators.",
+        "Developed by the AI Competency Centre as a Model Context Protocol (MCP) server, FRED (FAIRsharing Record Exploration and Discovery), available at mcp.fairsharing.org, acts as a translator between users' natural-language questions and the FAIRsharing registry.",
+        "FAIRsharing is a FAIR-enabling service and international community network that creates relationships among >1,900 standards (including minimal reporting requirements, terminologies, models/formats, and identifier schemas), >3,000 data repositories and knowledgebases, and a rich corpus of policies from funders, publishers, and institutions across all research domains. FAIRsharing serves stakeholders throughout the research lifecycle, attracting over one million visits since 2015. These numbers represent a large and highly curated research infrastructure: in FAIRsharing, each record is described with more than 40 attributes, curated both by an in-house team and by over 1,000 community contributors. This depth of annotation enables users to make informed decisions; for example, understanding which standards are mature, widely implemented, or recommended by authoritative policies. Yet users frequently report that it remains difficult to “find a tree in the forest of standards”, or determine which resource best fits their needs. Traditional search interfaces and wizard-like tools no longer align with user expectations. FRED was developed to address this challenge by allowing users to interrogate FAIRsharing's rich, interconnected metadata through natural-language conversations rather than more traditional searches.",
+        "Technically, FRED is an open-source MCP server that gives an LLM agent structured, purposeful access to the FAIRsharing registry. It currently exposes 96 specialised tools, grouped into 12 themed modules, that the chatbot can invoke according to the user's questions. Around a dozen of these tools are dedicated to understanding the relationships among entries in the registry rather than the entries themselves: which standards cluster together as a community of practice, which records sit at the centre of a research domain, which policies, standards, and databases are connected through chains of recommendation, and how to find the shortest meaningful path between two resources. These relationship-aware tools are what allow the chatbot to answer questions such as which standards are implemented by which databases, and which policies mandate them, rather than only returning isolated record pages.",
+        "Underneath, the server is engineered for the conversational, often unpredictable way LLM agents make requests. It assembles the relevant slice of the registry on demand, runs heavier computations in the background so the conversation stays responsive, and uses caching and gentle pacing of requests to keep the upstream FAIRsharing API stable under load. All answers remain tightly grounded in live FAIRsharing content, ensuring that recommendations reflect the current state of the registry.",
+        "FRED enables users to query FAIRsharing's highly interconnected metadata with far greater precision than was possible through our earlier GraphQL-based approach. By supporting extended, context-aware conversations, it allows researchers and other stakeholders to refine their requirements, discover relevant resources, and explore new insights across the FAIRsharing registry.",
+        "Example 1: Querying FRED to discover archaeological standards.",
+        "Example 2: Longer example, showing portions of a conversation querying FRED to discover which databases implement both a particular format (mzML) and any of a set of reporting guidelines (MIAPE).",
+        "FAIRsharing developed FIONA (FAIRsharing Information and Documentation Navigation Assistant) to reduce support queries while increasing successful engagement with its documentation and education materials. Users often explore FAIRsharing's search and record management features (including browsing, advanced search, filtering, record creation, and record updates) without fully understanding the functionality available to them. FIONA provides a low-barrier, conversational route into this documentation, allowing users to obtain guidance without having to navigate extensive written materials.",
+        "FIONA was intentionally developed as a separate chatbot rather than combining documentation and registry queries into a single system. Although users may ask similar questions, documentation retrieval and registry exploration require fundamentally different workflows. Separating the two preserves response quality, reduces latency, and ensures that each assistant can be optimised for its specific task. FRED answers questions about the content of FAIRsharing, while FIONA explains how to use FAIRsharing. The separation is a deliberate, permanent architectural choice rather than a staging step toward a unified bot.",
+        "FIONA is deployed on IntelliDoc, the AI Competency Centre's in-house platform for designing multi-agent orchestration workflows and deploying public-facing chatbots backed by custom knowledge bases. For FAIRsharing, the knowledge base is built from the FAIRsharing documentation and educational materials, indexed using Milvus to support retrieval-augmented generation. Under the hood, FIONA uses multi-agent orchestration to handle different aspects of a user's question, with every answer grounded in the indexed sources — minimising hallucination and ensuring that users are pointed back to authoritative FAIRsharing material with each response. The chatbot is offered as both an HTML snippet and an iframe embed, making it straightforward for FAIRsharing to surface it across its existing web properties.",
+        "FIONA was developed by the AI Competency Centre to give the FAIRsharing community personalised answers to their questions on searching, browsing, creating and updating records. Rather than requiring users to navigate extensive documentation or educational materials manually, FIONA provides an intuitive, conversational interface. Together, these capabilities enable FIONA to answer both simple \"how do I...?\" questions and more complex, conversational queries about using FAIRsharing effectively. Below are two example interactions with FIONA.",
+        "Example 3: Asking FIONA about updating one aspect of a FAIRsharing record.",
+        "Example 4: A longer conversation with FIONA about whether or not users can update records, and why they should do so.",
+        "The work of the AI Competency Centre will help us provide a more tailored user experience while fulfilling our requirements of truthfulness, focus, completeness and clarity. By assisting our in-house team and community champions by providing an interface for users to submit their specialised requirements, FRED and FIONA are helping us scale access to the registry, while also allowing us to use our time to provide the high-quality curation and new features our users rely on."
+      ],
+      "browser_use_cases": [
+        "Research & Scholarship",
+        "Administration & Operations",
+        "Coding, Automation & Tool Building"
+      ],
+      "browser_ai_roles": [
+        "Tutoring & Coaching",
+        "Analysis & Review",
+        "Coding & Building"
+      ],
+      "browser_audience": [
+        "Educators",
+        "Researchers",
+        "Professional Services Staff"
+      ],
+      "browser_guardrails": [
+        "Accuracy limitations"
       ]
     },
     {
